@@ -1,0 +1,35 @@
+export const HomeBtns = [
+  { link: "/list/hiragana", icon: "ひ", text: "Hiragana Letter List" },
+  { link: "/list/katakana", icon: "カ", text: "Katakana Letter List" },
+  { link: "/quiz/letters", icon: "ひ/カ", text: "Letters MCQ Quiz" },
+  { link: "/quiz/hiragana", icon: "ひ", text: "Hiragana Letter Quiz" },
+  { link: "/quiz/katakana", icon: "カ", text: "Katakana Letter Quiz" },
+  { link: "/list/katakana-reading", icon: "カ", text: "Katakana Reading List" },
+  {
+    link: "/list/vocabulary",
+    icon: "ひ-カ",
+    text: "Vocabulary List <br />Chapter Wise",
+  },
+  {
+    link: "/quiz/vocabulary-reading",
+    icon: "ひ-カ",
+    text: "Vocabulary Reading <br />Quiz",
+  },
+  {
+    link: "/quiz/vocabulary-meaning",
+    icon: "ひ-カ",
+    text: "Vocabulary Word to <br />Meaning MCQ Quiz",
+  },
+  {
+    link: "/quiz/vocabulary-word",
+    icon: "ひ-カ",
+    text: "Vocabulary Meaning to <br />Word MCQ Quiz",
+  },
+  { link: "/list/e-adjectives", icon: "い", text: "い - Adjective" },
+  { link: "/list/na-adjectives", icon: "な", text: "な - Adjective" },
+  { link: "/list/particles", icon: "の", text: "Particles" },
+  { link: "/quiz/particles", icon: "の", text: "Particles Practice" },
+  { link: "/list/adverbs", icon: "に", text: "Adverbs" },
+  { link: "/list/kanji", icon: "字", text: "Kanji List N5" },
+  { link: "/quiz/kanji", icon: "字", text: "Kanji Quiz N5" },
+];
