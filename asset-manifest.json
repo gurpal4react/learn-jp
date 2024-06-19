@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/learn-jp/static/css/main.35a86181.css",
+    "main.js": "/learn-jp/static/js/main.3d26ef31.js",
+    "index.html": "/learn-jp/index.html",
+    "main.35a86181.css.map": "/learn-jp/static/css/main.35a86181.css.map",
+    "main.3d26ef31.js.map": "/learn-jp/static/js/main.3d26ef31.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.35a86181.css",
+    "static/js/main.3d26ef31.js"
+  ]
+}
