@@ -2913,7 +2913,7 @@ export const vocabulary = [
         pronunciation: "supōtsu",
         meaning: "sport",
         lesson: "9",
-        type: 'sports'
+        type: 'activity'
       },
       {
         jp: "やきゅう",
@@ -2921,7 +2921,7 @@ export const vocabulary = [
         pronunciation: "yakyū",
         meaning: "baseball",
         lesson: "9",
-        type: 'sports'
+        type: 'activity'
       },
       {
         jp: "ダンス",
@@ -2929,7 +2929,7 @@ export const vocabulary = [
         pronunciation: "dansu",
         meaning: "dance",
         lesson: "9",
-        type: 'sports'
+        type: 'activity'
       },
       {
         jp: "りょこう",
@@ -2937,7 +2937,7 @@ export const vocabulary = [
         pronunciation: "ryokō",
         meaning: "trip, tour",
         lesson: "9",
-        type: 'sports'
+        type: 'activity'
       },
       {
         jp: "おんがく",
@@ -2945,7 +2945,7 @@ export const vocabulary = [
         pronunciation: "ongaku",
         meaning: "music",
         lesson: "9",
-        type: 'sports'
+        type: 'activity'
       },
       {
         jp: "うた",
@@ -2953,7 +2953,7 @@ export const vocabulary = [
         pronunciation: "uta",
         meaning: "song",
         lesson: "9",
-        type: 'sports'
+        type: 'activity'
       },
       {
         jp: "クラシック",
@@ -2961,7 +2961,7 @@ export const vocabulary = [
         pronunciation: "kurashikku",
         meaning: "classical music",
         lesson: "9",
-        type: 'sports'
+        type: 'activity'
       },
       {
         jp: "ジャズ",
@@ -2969,7 +2969,7 @@ export const vocabulary = [
         pronunciation: "jazu",
         meaning: "jazz",
         lesson: "9",
-        type: 'sports'
+        type: 'activity'
       },
       {
         jp: "コンサート",
@@ -2977,7 +2977,7 @@ export const vocabulary = [
         pronunciation: "konsāto",
         meaning: "concert",
         lesson: "9",
-        type: 'sports'
+        type: 'activity'
       },
       {
         jp: "カラオケ",
@@ -2985,7 +2985,7 @@ export const vocabulary = [
         pronunciation: "karaoke",
         meaning: "karaoke",
         lesson: "9",
-        type: 'sports'
+        type: 'activity'
       },
       {
         jp: "かぶき",
@@ -2993,7 +2993,7 @@ export const vocabulary = [
         pronunciation: "kabuki",
         meaning: "Kabuki (traditional Japanese musical drama)",
         lesson: "9",
-        type: 'sports'
+        type: 'activity'
       },
       {
         jp: "え",
@@ -3001,7 +3001,7 @@ export const vocabulary = [
         pronunciation: "e",
         meaning: "picture, drawing",
         lesson: "9",
-        type: 'sports'
+        type: 'activity'
       },
       {
         jp: "じ",
