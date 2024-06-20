@@ -35,7 +35,7 @@ const VocabularyList = () => {
                 data={vocabulary[0][chapter]}
                 heading={`Chapter ${chapter}`}
                 mainKey="jp"
-                noShowKeys={["lesson"]}
+                noShowKeys={["lesson", "type"]}
               />
             </div>
           );

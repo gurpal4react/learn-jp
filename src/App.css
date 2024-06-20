@@ -83,6 +83,7 @@ input {
 .list-main {
   font-weight: bold;
   font-size: 30px;
+  border-bottom: 2px white dashed;
 }
 
 .list-element {
@@ -92,7 +93,7 @@ input {
   width: 18vw;
   padding-bottom: 5px;
   margin: 20px 10px;
-  border-bottom: 2px white dashed;
+  margin-bottom: auto;
 }
 
 @media only screen and (max-width: 762px) {

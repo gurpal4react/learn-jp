@@ -1,5 +1,7 @@
 import React from "react";
 import useList from "../hooks/useList";
+import { speak } from "../../helper/speak";
+import { GiSpeaker } from "react-icons/gi";
 
 const ListComponent = ({ heading, data, mainKey, noShowKeys, letter }) => {
   const { keys, typedData } = useList(data, mainKey, noShowKeys);
@@ -34,7 +36,15 @@ const ListComponent = ({ heading, data, mainKey, noShowKeys, letter }) => {
 const List = ({ data, keys, mainKey, letter }) => {
   return data?.map((subData, index) => (
     <div key={index} className={`${letter ? "letter-" : ""}list-element`}>
-      <div className="list-main">{subData[mainKey]}</div>
+      <div className={letter ? "" : "list-main"}>
+        {subData[mainKey]}
+        <GiSpeaker
+          size={20}
+          onClick={() =>
+            letter ? speak(subData["kana"]) : speak(subData[mainKey])
+          }
+        />
+      </div>
       {keys.map((key) => {
         return <div>{subData[key]}</div>;
       })}
