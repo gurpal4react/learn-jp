@@ -3079,39 +3079,6 @@ export const vocabulary = [
     ],
     10: [
       {
-        pronunciation: "okāsan",
-        jp: "おかあさん",
-        kanji: "お母さん",
-        meaning:
-          "(someone else's) mother (also used to address one's own mother)",
-        lesson: "10",
-        type: "noun",
-      },
-      {
-        pronunciation: "mō",
-        jp: "もう",
-        kanji: "もう",
-        meaning: "already",
-        lesson: "10",
-        type: "adverb",
-      },
-      {
-        pronunciation: "mada",
-        jp: "まだ",
-        kanji: "まだ",
-        meaning: "not yet",
-        lesson: "10",
-        type: "adverb",
-      },
-      {
-        pronunciation: "korekara",
-        jp: "これから",
-        kanji: "これから",
-        meaning: "from now on, soon",
-        lesson: "10",
-        type: "adverb",
-      },
-      {
         pronunciation: "arimasu",
         jp: "あります",
         kanji: "あります",
