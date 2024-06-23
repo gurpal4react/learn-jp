@@ -9,6 +9,7 @@ const useLetterQuiz = (data, type) => {
   const [correct, setCorrect] = useState([]);
   const [incorrect, setIncorrect] = useState([]);
   const [finish, setFinish] = useState(false);
+  const [timesWrong, setTimesWrong] = useState(null);
   const handleBlur = (e, answer) => {
     if (!e.target.value) return;
     if (e.target.value.toLowerCase() === answer[answerKey]) {
@@ -17,7 +18,18 @@ const useLetterQuiz = (data, type) => {
       setIncorrect((prev) => [...prev, answer[questionKey]]);
     }
   };
-  const handleFinish = () => setFinish(true);
+  const handleFinish = () => {
+    setTimesWrong(
+      [...incorrect]?.reduce(
+        (attempts, d) => (
+          attempts[d] ? (attempts[d] = attempts[d] + 1) : (attempts[d] = 1),
+          attempts
+        ),
+        {}
+      )
+    );
+    setFinish(true);
+  };
 
   useEffect(() => {
     setRandomData(data.sort(() => 0.5 - Math.random()));
@@ -34,6 +46,7 @@ const useLetterQuiz = (data, type) => {
     handleBlur,
     handleReset,
     handleFinish,
+    timesWrong,
   };
 };
 

@@ -2,9 +2,14 @@ import React from "react";
 import useList from "../hooks/useList";
 import { speak } from "../../helper/speak";
 import { GiSpeaker } from "react-icons/gi";
+import ScrollTopBtn from "./ScrollTopBtn";
 
 const ListComponent = ({ heading, data, mainKey, noShowKeys, letter }) => {
-  const { keys, typedData } = useList(data, mainKey, noShowKeys);
+  const { keys, typedData } = useList(
+    data,
+    mainKey,
+    noShowKeys
+  );
   return (
     <div className="list">
       <h1 className="list-heading">{heading}</h1>
@@ -29,6 +34,7 @@ const ListComponent = ({ heading, data, mainKey, noShowKeys, letter }) => {
       ) : (
         <></>
       )}
+      <ScrollTopBtn />
     </div>
   );
 };

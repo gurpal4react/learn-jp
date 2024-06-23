@@ -1,5 +1,6 @@
 import React from "react";
 import useQuiz from "../hooks/useQuiz";
+import { AiOutlineReload } from "react-icons/ai";
 
 const Quiz = ({ questionData, questionKey, optionKey, limit }) => {
   const {
@@ -47,9 +48,7 @@ const Quiz = ({ questionData, questionKey, optionKey, limit }) => {
             </button>
           </>
         )}
-        <button onClick={handleReset} className="quiz-button">
-          Restart
-        </button>
+        <AiOutlineReload size={20} onClick={handleReset} className="quiz-button"/>
         <div>Total Questions: {questions.length}</div>
         {questionIndex < questions.length && (
           <div>Current Question Number: {questionIndex + 1}</div>

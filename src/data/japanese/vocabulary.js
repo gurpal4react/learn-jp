@@ -208,7 +208,7 @@ export const vocabulary = [
         pronunciation: "Hajimemashite.",
         meaning: "How do you do?",
         lesson: "1",
-        type: "greetings",
+        type: "expression",
       },
       {
         jp: "～から きました。",
@@ -216,7 +216,7 @@ export const vocabulary = [
         pronunciation: "~ kara kimashita.",
         meaning: "I＇m from ～（ country）.",
         lesson: "1",
-        type: "greetings",
+        type: "expression",
       },
       {
         jp: "［どうぞ］ よろしく［おねがいします］",
@@ -225,7 +225,7 @@ export const vocabulary = [
         meaning:
           "Pleased to meet you. (Usually used at the end of a self-introduction.）",
         lesson: "1",
-        type: "greetings",
+        type: "expression",
       },
       {
         jp: "しつれいですが",
@@ -234,7 +234,7 @@ export const vocabulary = [
         meaning:
           "Excuse me, but （used when asking someone for personal information such as their name or address",
         lesson: "1",
-        type: "polite phrases",
+        type: "expression",
       },
       {
         jp: "おなまえは？ ",
@@ -242,7 +242,7 @@ export const vocabulary = [
         pronunciation: "O-namae wa?",
         meaning: "May I have your name?",
         lesson: "1",
-        type: "polite phrases",
+        type: "expression",
       },
       {
         jp: "こちらは ～さんです。",
@@ -250,7 +250,7 @@ export const vocabulary = [
         pronunciation: "Kochira wa -san desu.",
         meaning: "This is Mr./Ms. ～.",
         lesson: "1",
-        type: "polite phrases",
+        type: "expression",
       },
       {
         jp: "くに",
@@ -944,7 +944,7 @@ export const vocabulary = [
         pronunciation: "kudasai",
         meaning: "Please give me~",
         lesson: "3",
-        type: "polite phrases",
+        type: "expression",
       },
     ],
     4: [
@@ -3137,6 +3137,7 @@ export const vocabulary = [
         pronunciation: "yoku",
         meaning: "well, much",
         lesson: "9",
+        type: "adverb",
       },
       {
         jp: "だいたい",
@@ -3144,6 +3145,7 @@ export const vocabulary = [
         pronunciation: "daitai",
         meaning: "mostly, roughly",
         lesson: "9",
+        type: "adverb",
       },
       {
         jp: "たくさん",
@@ -3151,6 +3153,7 @@ export const vocabulary = [
         pronunciation: "takusan",
         meaning: "many, much",
         lesson: "9",
+        type: "adverb",
       },
       {
         jp: "すこし",
@@ -3158,6 +3161,7 @@ export const vocabulary = [
         pronunciation: "sukoshi",
         meaning: "a little, a few",
         lesson: "9",
+        type: "adverb",
       },
       {
         jp: "ぜんぜん",
@@ -3165,6 +3169,7 @@ export const vocabulary = [
         pronunciation: "zenzen",
         meaning: "not at all (used with negatives)",
         lesson: "9",
+        type: "adverb",
       },
       {
         jp: "はやく",
@@ -3172,6 +3177,7 @@ export const vocabulary = [
         pronunciation: "hayaku",
         meaning: "early, quickly, fast",
         lesson: "9",
+        type: "adverb",
       },
       {
         jp: "～から",
@@ -3461,6 +3467,7 @@ export const vocabulary = [
         pronunciation: "ken",
         meaning: "prefecture",
         lesson: "10",
+        type: 'places'
       },
       {
         jp: "うえ",
@@ -3476,6 +3483,7 @@ export const vocabulary = [
         pronunciation: "shita",
         meaning: "under, below, beneath",
         lesson: "10",
+        type: 'direction & position'
       },
       {
         jp: "まえ",
@@ -3483,6 +3491,7 @@ export const vocabulary = [
         pronunciation: "mae",
         meaning: "front, before",
         lesson: "10",
+        type: 'direction & position'
       },
       {
         jp: "うしろ",
@@ -3490,6 +3499,7 @@ export const vocabulary = [
         pronunciation: "ushiro",
         meaning: "back, behind",
         lesson: "10",
+        type: 'direction & position'
       },
       {
         jp: "みぎ",
@@ -3497,6 +3507,7 @@ export const vocabulary = [
         pronunciation: "migi",
         meaning: "right [side]",
         lesson: "10",
+        type: 'direction & position'
       },
       {
         jp: "ひだり",
@@ -3504,6 +3515,7 @@ export const vocabulary = [
         pronunciation: "hidari",
         meaning: "left [side]",
         lesson: "10",
+        type: 'direction & position'
       },
       {
         jp: "なか",
@@ -3511,6 +3523,7 @@ export const vocabulary = [
         pronunciation: "naka",
         meaning: "in, inside",
         lesson: "10",
+        type: 'direction & position'
       },
       {
         jp: "そと",
@@ -3518,6 +3531,7 @@ export const vocabulary = [
         pronunciation: "soto",
         meaning: "outside",
         lesson: "10",
+        type: 'direction & position'
       },
       {
         jp: "となり",
@@ -3525,6 +3539,7 @@ export const vocabulary = [
         pronunciation: "tonari",
         meaning: "next, next door",
         lesson: "10",
+        type: 'direction & position'
       },
       {
         jp: "ちかく",
@@ -3532,6 +3547,7 @@ export const vocabulary = [
         pronunciation: "chikaku",
         meaning: "near, vicinity",
         lesson: "10",
+        type: 'direction & position'
       },
       {
         jp: "あいだ",
@@ -3547,6 +3563,7 @@ export const vocabulary = [
         pronunciation: "~ ya ~ [nado]",
         meaning: "～, ～, and so on",
         lesson: "10",
+        type: "expression",
       },
       {
         jp: "[どうも] すみません。",
@@ -3554,6 +3571,7 @@ export const vocabulary = [
         pronunciation: "[Dōmo] sumimasen.",
         meaning: "Thank you.",
         lesson: "10",
+        type: "expression",
       },
       {
         jp: "ナンプラー",
@@ -3561,6 +3579,7 @@ export const vocabulary = [
         pronunciation: "nanpurā",
         meaning: "nam pla",
         lesson: "10",
+        type: "expression",
       },
       {
         jp: "コーナー",
@@ -3568,6 +3587,7 @@ export const vocabulary = [
         pronunciation: "kōnā",
         meaning: "corner, section",
         lesson: "10",
+        type: 'direction & position'
       },
       {
         jp: "いちばん した",
@@ -3575,6 +3595,7 @@ export const vocabulary = [
         pronunciation: "ichiban shita",
         meaning: "the bottom",
         lesson: "10",
+        type: 'direction & position'
       },
     ],
     11: [

@@ -1,5 +1,6 @@
 import React from "react";
 import useLetterQuiz from "../hooks/useLetterQuiz";
+import ScrollTopBtn from "./ScrollTopBtn";
 
 const LettersQuiz = ({ data, type }) => {
   const {
@@ -12,6 +13,7 @@ const LettersQuiz = ({ data, type }) => {
     handleBlur,
     handleReset,
     handleFinish,
+    timesWrong,
   } = useLetterQuiz(data, type);
   return (
     <>
@@ -28,13 +30,19 @@ const LettersQuiz = ({ data, type }) => {
               }`}
             >
               <div>{letter[questionKey]}</div>
-              {finish && <div>{letter[answerKey]}</div>}{" "}
+              {finish && <div>{letter[answerKey]}</div>}
               <input
                 autoComplete="off"
                 name={answerKey}
                 disabled={finish || correct.indexOf(letter[questionKey]) !== -1}
                 onBlur={(e) => handleBlur(e, letter)}
+                onFocus={(e) => e.target.value = ''}
               />
+              {timesWrong && (
+                <div className="incorrect-count">
+                  Times Incorrect: {timesWrong[letter[questionKey]] ?? 0}
+                </div>
+              )}
             </div>
           );
         })}
@@ -47,6 +55,7 @@ const LettersQuiz = ({ data, type }) => {
       <button onClick={handleReset} className="quiz-button">
         Restart
       </button>
+      <ScrollTopBtn />
     </>
   );
 };

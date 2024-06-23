@@ -16,6 +16,7 @@ const useQuiz = (questionData, optionKey, limit) => {
     let typeBasedOptions = null;
     if (Object.keys(questionData[0]).includes("type")) {
       typeBasedOptions = questionData.reduce(
+        // eslint-disable-next-line 
         (p, c) => (p[c.type] ? p[c.type].push(c) : (p[c.type] = [c]), p),
         {}
       );
@@ -86,6 +87,7 @@ const useQuiz = (questionData, optionKey, limit) => {
     return () => {
       window.removeEventListener("keypress", handleKeyPress);
     };
+    // eslint-disable-next-line
   }, [questions, questionIndex, currentAnswer]);
   return {
     questions,

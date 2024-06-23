@@ -1,6 +1,6 @@
 import React from "react";
 import Home from "../Pages/Home";
-import { HashRouter, Route, Routes } from "react-router-dom";
+import { HashRouter, Route, Routes, Navigate } from "react-router-dom";
 import ListRoutes from "./ListRoutes";
 import QuizRoutes from "./QuizRoutes";
 import Layout from "../components/UI/Layout";
@@ -13,6 +13,7 @@ const AppRoutes = () => {
           <Route index element={<Home />} />
           <Route path="/list/*" element={<ListRoutes />} />
           <Route path="/quiz/*" element={<QuizRoutes />} />
+          <Route path="*" element={<Navigate to={'/'}/>}/>
         </Route>
       </Routes>
     </HashRouter>

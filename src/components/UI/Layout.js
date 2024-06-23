@@ -1,15 +1,19 @@
 import React from "react";
-import { Link, Outlet, useLocation } from "react-router-dom";
+import { BiHome } from "react-icons/bi";
+import { Outlet, useLocation, useNavigate } from "react-router-dom";
 
 const Layout = () => {
   const location = useLocation();
+  const navigate = useNavigate();
   return (
     <div className="gap-bottom">
       <Outlet />
       {location.pathname !== "/" && (
-        <Link to={"/"} className="quiz-button">
-          home
-        </Link>
+        <BiHome
+          className=" home-btn quiz-button"
+          size={20}
+          onClick={() => navigate("/")}
+        />
       )}
     </div>
   );
