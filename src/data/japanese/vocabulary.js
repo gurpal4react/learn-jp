@@ -2897,7 +2897,7 @@ export const vocabulary = [
         pronunciation: "nomimono",
         meaning: "drinks",
         lesson: "9",
-        type: 'food'
+        type: "food",
       },
       {
         jp: "りょうり",
@@ -2905,7 +2905,7 @@ export const vocabulary = [
         pronunciation: "ryōri",
         meaning: "dish (cooked food), cooking",
         lesson: "9",
-        type: 'food'
+        type: "food",
       },
       {
         jp: "スポーツ",
@@ -2913,7 +2913,7 @@ export const vocabulary = [
         pronunciation: "supōtsu",
         meaning: "sport",
         lesson: "9",
-        type: 'activity'
+        type: "activity",
       },
       {
         jp: "やきゅう",
@@ -2921,7 +2921,7 @@ export const vocabulary = [
         pronunciation: "yakyū",
         meaning: "baseball",
         lesson: "9",
-        type: 'activity'
+        type: "activity",
       },
       {
         jp: "ダンス",
@@ -2929,7 +2929,7 @@ export const vocabulary = [
         pronunciation: "dansu",
         meaning: "dance",
         lesson: "9",
-        type: 'activity'
+        type: "activity",
       },
       {
         jp: "りょこう",
@@ -2937,7 +2937,7 @@ export const vocabulary = [
         pronunciation: "ryokō",
         meaning: "trip, tour",
         lesson: "9",
-        type: 'activity'
+        type: "activity",
       },
       {
         jp: "おんがく",
@@ -2945,7 +2945,7 @@ export const vocabulary = [
         pronunciation: "ongaku",
         meaning: "music",
         lesson: "9",
-        type: 'activity'
+        type: "activity",
       },
       {
         jp: "うた",
@@ -2953,7 +2953,7 @@ export const vocabulary = [
         pronunciation: "uta",
         meaning: "song",
         lesson: "9",
-        type: 'activity'
+        type: "activity",
       },
       {
         jp: "クラシック",
@@ -2961,7 +2961,7 @@ export const vocabulary = [
         pronunciation: "kurashikku",
         meaning: "classical music",
         lesson: "9",
-        type: 'activity'
+        type: "activity",
       },
       {
         jp: "ジャズ",
@@ -2969,7 +2969,7 @@ export const vocabulary = [
         pronunciation: "jazu",
         meaning: "jazz",
         lesson: "9",
-        type: 'activity'
+        type: "activity",
       },
       {
         jp: "コンサート",
@@ -2977,7 +2977,7 @@ export const vocabulary = [
         pronunciation: "konsāto",
         meaning: "concert",
         lesson: "9",
-        type: 'activity'
+        type: "activity",
       },
       {
         jp: "カラオケ",
@@ -2985,7 +2985,7 @@ export const vocabulary = [
         pronunciation: "karaoke",
         meaning: "karaoke",
         lesson: "9",
-        type: 'activity'
+        type: "activity",
       },
       {
         jp: "かぶき",
@@ -2993,7 +2993,7 @@ export const vocabulary = [
         pronunciation: "kabuki",
         meaning: "Kabuki (traditional Japanese musical drama)",
         lesson: "9",
-        type: 'activity'
+        type: "activity",
       },
       {
         jp: "え",
@@ -3001,7 +3001,7 @@ export const vocabulary = [
         pronunciation: "e",
         meaning: "picture, drawing",
         lesson: "9",
-        type: 'activity'
+        type: "activity",
       },
       {
         jp: "じ",
@@ -3009,7 +3009,7 @@ export const vocabulary = [
         pronunciation: "ji",
         meaning: "letter, character",
         lesson: "9",
-        type: 'language'
+        type: "language",
       },
       {
         jp: "かんじ",
@@ -3017,7 +3017,7 @@ export const vocabulary = [
         pronunciation: "kanji",
         meaning: "Chinese character",
         lesson: "9",
-        type: 'language'
+        type: "language",
       },
       {
         jp: "ひらがな",
@@ -3025,7 +3025,7 @@ export const vocabulary = [
         pronunciation: "hiragana",
         meaning: "hiragana script",
         lesson: "9",
-        type: 'language'
+        type: "language",
       },
       {
         jp: "かたかな",
@@ -3033,7 +3033,7 @@ export const vocabulary = [
         pronunciation: "katakana",
         meaning: "katakana script",
         lesson: "9",
-        type: 'language'
+        type: "language",
       },
       {
         jp: "ローマじ",
@@ -3041,7 +3041,7 @@ export const vocabulary = [
         pronunciation: "rōmaji",
         meaning: "the Roman alphabet",
         lesson: "9",
-        type: 'language'
+        type: "language",
       },
       {
         jp: "こまかい おかね",
@@ -3049,7 +3049,7 @@ export const vocabulary = [
         pronunciation: "komakai okane",
         meaning: "small change",
         lesson: "9",
-        type: 'activity'
+        type: "activity",
       },
       {
         jp: "チケット",
@@ -3057,7 +3057,7 @@ export const vocabulary = [
         pronunciation: "chiketto",
         meaning: "ticket",
         lesson: "9",
-        type: 'objects'
+        type: "objects",
       },
       {
         jp: "じかん",
@@ -3065,7 +3065,7 @@ export const vocabulary = [
         pronunciation: "jikan",
         meaning: "time",
         lesson: "9",
-        type: 'time'
+        type: "time",
       },
       {
         jp: "ようじ",
@@ -3073,7 +3073,7 @@ export const vocabulary = [
         pronunciation: "yōji",
         meaning: "something to do, errand",
         lesson: "9",
-        type: 'activity'
+        type: "activity",
       },
       {
         jp: "やくそく",
@@ -3081,7 +3081,7 @@ export const vocabulary = [
         pronunciation: "yakusoku",
         meaning: "appointment, promise",
         lesson: "9",
-        type: 'events'
+        type: "events",
       },
       {
         jp: "アルバイト",
@@ -3089,7 +3089,7 @@ export const vocabulary = [
         pronunciation: "arubaito",
         meaning: "side job (～ o shimasu : work part-time)",
         lesson: "9",
-        type: 'activity'
+        type: "activity",
       },
       {
         jp: "ごしゅじん",
@@ -3097,7 +3097,7 @@ export const vocabulary = [
         pronunciation: "go-shujin",
         meaning: "(someone else's) husband",
         lesson: "9",
-        type: 'people'
+        type: "people",
       },
       {
         jp: "おっと/しゅじん",
@@ -3105,7 +3105,7 @@ export const vocabulary = [
         pronunciation: "otto/shujin",
         meaning: "(my) husband",
         lesson: "9",
-        type: 'people'
+        type: "people",
       },
       {
         jp: "おくさん",
@@ -3113,7 +3113,7 @@ export const vocabulary = [
         pronunciation: "okusan",
         meaning: "(someone else's) wife",
         lesson: "9",
-        type: 'people'
+        type: "people",
       },
       {
         jp: "つま/かない",
@@ -3121,7 +3121,7 @@ export const vocabulary = [
         pronunciation: "tsuma/kanai",
         meaning: "(my) wife",
         lesson: "9",
-        type: 'people'
+        type: "people",
       },
       {
         jp: "こども",
@@ -3129,7 +3129,7 @@ export const vocabulary = [
         pronunciation: "kodomo",
         meaning: "child",
         lesson: "9",
-        type: 'people'
+        type: "people",
       },
       {
         jp: "よく",
@@ -3467,7 +3467,7 @@ export const vocabulary = [
         pronunciation: "ken",
         meaning: "prefecture",
         lesson: "10",
-        type: 'places'
+        type: "places",
       },
       {
         jp: "うえ",
@@ -3475,7 +3475,7 @@ export const vocabulary = [
         pronunciation: "ue",
         meaning: "on, above, over",
         lesson: "10",
-        type: 'direction & position'
+        type: "direction & position",
       },
       {
         jp: "した",
@@ -3483,7 +3483,7 @@ export const vocabulary = [
         pronunciation: "shita",
         meaning: "under, below, beneath",
         lesson: "10",
-        type: 'direction & position'
+        type: "direction & position",
       },
       {
         jp: "まえ",
@@ -3491,7 +3491,7 @@ export const vocabulary = [
         pronunciation: "mae",
         meaning: "front, before",
         lesson: "10",
-        type: 'direction & position'
+        type: "direction & position",
       },
       {
         jp: "うしろ",
@@ -3499,7 +3499,7 @@ export const vocabulary = [
         pronunciation: "ushiro",
         meaning: "back, behind",
         lesson: "10",
-        type: 'direction & position'
+        type: "direction & position",
       },
       {
         jp: "みぎ",
@@ -3507,7 +3507,7 @@ export const vocabulary = [
         pronunciation: "migi",
         meaning: "right [side]",
         lesson: "10",
-        type: 'direction & position'
+        type: "direction & position",
       },
       {
         jp: "ひだり",
@@ -3515,7 +3515,7 @@ export const vocabulary = [
         pronunciation: "hidari",
         meaning: "left [side]",
         lesson: "10",
-        type: 'direction & position'
+        type: "direction & position",
       },
       {
         jp: "なか",
@@ -3523,7 +3523,7 @@ export const vocabulary = [
         pronunciation: "naka",
         meaning: "in, inside",
         lesson: "10",
-        type: 'direction & position'
+        type: "direction & position",
       },
       {
         jp: "そと",
@@ -3531,7 +3531,7 @@ export const vocabulary = [
         pronunciation: "soto",
         meaning: "outside",
         lesson: "10",
-        type: 'direction & position'
+        type: "direction & position",
       },
       {
         jp: "となり",
@@ -3539,7 +3539,7 @@ export const vocabulary = [
         pronunciation: "tonari",
         meaning: "next, next door",
         lesson: "10",
-        type: 'direction & position'
+        type: "direction & position",
       },
       {
         jp: "ちかく",
@@ -3547,7 +3547,7 @@ export const vocabulary = [
         pronunciation: "chikaku",
         meaning: "near, vicinity",
         lesson: "10",
-        type: 'direction & position'
+        type: "direction & position",
       },
       {
         jp: "あいだ",
@@ -3555,7 +3555,7 @@ export const vocabulary = [
         pronunciation: "aida",
         meaning: "between, among",
         lesson: "10",
-        type: 'direction & position'
+        type: "direction & position",
       },
       {
         jp: "～や ～[など]",
@@ -3587,7 +3587,7 @@ export const vocabulary = [
         pronunciation: "kōnā",
         meaning: "corner, section",
         lesson: "10",
-        type: 'direction & position'
+        type: "direction & position",
       },
       {
         jp: "いちばん した",
@@ -3595,7 +3595,7 @@ export const vocabulary = [
         pronunciation: "ichiban shita",
         meaning: "the bottom",
         lesson: "10",
-        type: 'direction & position'
+        type: "direction & position",
       },
     ],
     11: [
@@ -3605,6 +3605,7 @@ export const vocabulary = [
         pronunciation: "imasu [kodomo ga ~]",
         meaning: "have [a child]",
         lesson: "11",
+        type: "verb",
       },
       {
         jp: "います[にほんに～]",
@@ -3612,6 +3613,7 @@ export const vocabulary = [
         pronunciation: "imasu [Nihon ni ~]",
         meaning: "stay, be [in Japan]",
         lesson: "11",
+        type: "verb",
       },
       {
         jp: "かかります",
@@ -3619,6 +3621,7 @@ export const vocabulary = [
         pronunciation: "kakarimasu",
         meaning: "take, cost (referring to time or money)",
         lesson: "11",
+        type: "verb",
       },
       {
         jp: "やすみます[かいしゃを～]",
@@ -3626,6 +3629,7 @@ export const vocabulary = [
         pronunciation: "yasumimasu [kaisha o ~]",
         meaning: "take a day off [work]",
         lesson: "11",
+        type: "verb",
       },
       {
         jp: "ひとつ",
@@ -3633,6 +3637,7 @@ export const vocabulary = [
         pronunciation: "hitotsu",
         meaning: "one (used when counting things)",
         lesson: "11",
+        type: "noun",
       },
       {
         jp: "ふたつ",
@@ -3640,6 +3645,7 @@ export const vocabulary = [
         pronunciation: "futatsu",
         meaning: "two",
         lesson: "11",
+        type: "noun",
       },
       {
         jp: "みっつ",
@@ -3647,6 +3653,7 @@ export const vocabulary = [
         pronunciation: "mittsu",
         meaning: "three",
         lesson: "11",
+        type: "noun",
       },
       {
         jp: "よっつ",
@@ -3654,6 +3661,7 @@ export const vocabulary = [
         pronunciation: "yottsu",
         meaning: "four",
         lesson: "11",
+        type: "noun",
       },
       {
         jp: "いつつ",
@@ -3661,6 +3669,7 @@ export const vocabulary = [
         pronunciation: "itsutsu",
         meaning: "five",
         lesson: "11",
+        type: "noun",
       },
       {
         jp: "むっつ",
@@ -3668,6 +3677,7 @@ export const vocabulary = [
         pronunciation: "muttsu",
         meaning: "six",
         lesson: "11",
+        type: "noun",
       },
       {
         jp: "ななつ",
@@ -3675,6 +3685,7 @@ export const vocabulary = [
         pronunciation: "nanatsu",
         meaning: "seven",
         lesson: "11",
+        type: "noun",
       },
       {
         jp: "やっつ",
@@ -3682,6 +3693,7 @@ export const vocabulary = [
         pronunciation: "yattsu",
         meaning: "eight",
         lesson: "11",
+        type: "noun",
       },
       {
         jp: "ここのつ",
@@ -3689,6 +3701,7 @@ export const vocabulary = [
         pronunciation: "kokonotsu",
         meaning: "nine",
         lesson: "11",
+        type: "noun",
       },
       {
         jp: "とお",
@@ -3696,6 +3709,7 @@ export const vocabulary = [
         pronunciation: "tō",
         meaning: "ten",
         lesson: "11",
+        type: "noun",
       },
       {
         jp: "いくつ",
@@ -3703,6 +3717,7 @@ export const vocabulary = [
         pronunciation: "ikutsu",
         meaning: "how many",
         lesson: "11",
+        type: "question word",
       },
       {
         jp: "ひとり",
@@ -3710,6 +3725,7 @@ export const vocabulary = [
         pronunciation: "hitori",
         meaning: "one person",
         lesson: "11",
+        type: "noun",
       },
       {
         jp: "ふたり",
@@ -3717,6 +3733,7 @@ export const vocabulary = [
         pronunciation: "futari",
         meaning: "two people",
         lesson: "11",
+        type: "noun",
       },
       {
         jp: "－にん",
@@ -3724,6 +3741,7 @@ export const vocabulary = [
         pronunciation: "-nin",
         meaning: "- people",
         lesson: "11",
+        type: "counter",
       },
       {
         jp: "－だい",
@@ -3731,6 +3749,7 @@ export const vocabulary = [
         pronunciation: "-dai",
         meaning: "(counter for machines, cars, etc.)",
         lesson: "11",
+        type: "counter",
       },
       {
         jp: "－まい",
@@ -3738,6 +3757,7 @@ export const vocabulary = [
         pronunciation: "-mai",
         meaning: "(counter for paper, stamps, etc.)",
         lesson: "11",
+        type: "counter",
       },
       {
         jp: "－かい",
@@ -3745,6 +3765,7 @@ export const vocabulary = [
         pronunciation: "-kai",
         meaning: "- times",
         lesson: "11",
+        type: "counter",
       },
       {
         jp: "りんご",
@@ -3752,6 +3773,7 @@ export const vocabulary = [
         pronunciation: "ringo",
         meaning: "apple",
         lesson: "11",
+        type: "noun",
       },
       {
         jp: "みかん",
@@ -3759,6 +3781,7 @@ export const vocabulary = [
         pronunciation: "mikan",
         meaning: "mandarin orange",
         lesson: "11",
+        type: "noun",
       },
       {
         jp: "サンドイッチ",
@@ -3766,6 +3789,7 @@ export const vocabulary = [
         pronunciation: "sandoitchi",
         meaning: "sandwich",
         lesson: "11",
+        type: "noun",
       },
       {
         jp: "カレー[ライス]",
@@ -3773,6 +3797,7 @@ export const vocabulary = [
         pronunciation: "karē [raisu]",
         meaning: "curry [with rice]",
         lesson: "11",
+        type: "noun",
       },
       {
         jp: "アイスクリーム",
@@ -3780,6 +3805,7 @@ export const vocabulary = [
         pronunciation: "aisukurīmu",
         meaning: "ice cream",
         lesson: "11",
+        type: "noun",
       },
       {
         jp: "きって",
@@ -3787,6 +3813,7 @@ export const vocabulary = [
         pronunciation: "kitte",
         meaning: "postage stamp",
         lesson: "11",
+        type: "noun",
       },
       {
         jp: "はがき",
@@ -3794,6 +3821,7 @@ export const vocabulary = [
         pronunciation: "hagaki",
         meaning: "postcard",
         lesson: "11",
+        type: "noun",
       },
       {
         jp: "ふうとう",
@@ -3801,6 +3829,7 @@ export const vocabulary = [
         pronunciation: "fūto",
         meaning: "envelope",
         lesson: "11",
+        type: "noun",
       },
       {
         jp: "りょうしん",
@@ -3808,6 +3837,7 @@ export const vocabulary = [
         pronunciation: "ryōshin",
         meaning: "parents",
         lesson: "11",
+        type: "noun",
       },
       {
         jp: "きょうだい",
@@ -3815,6 +3845,7 @@ export const vocabulary = [
         pronunciation: "kyōdai",
         meaning: "brothers and sisters",
         lesson: "11",
+        type: "noun",
       },
       {
         jp: "あに",
@@ -3822,6 +3853,7 @@ export const vocabulary = [
         pronunciation: "ani",
         meaning: "(my) elder brother",
         lesson: "11",
+        type: "noun",
       },
       {
         jp: "おにいさん",
@@ -3829,6 +3861,7 @@ export const vocabulary = [
         pronunciation: "oniisan",
         meaning: "(someone else's) elder brother",
         lesson: "11",
+        type: "noun",
       },
       {
         jp: "あね",
@@ -3836,6 +3869,7 @@ export const vocabulary = [
         pronunciation: "ane",
         meaning: "(my) elder sister",
         lesson: "11",
+        type: "noun",
       },
       {
         jp: "おねえさん",
@@ -3843,6 +3877,7 @@ export const vocabulary = [
         pronunciation: "onēsan",
         meaning: "(someone else's) elder sister",
         lesson: "11",
+        type: "noun",
       },
       {
         jp: "おとうと",
@@ -3850,6 +3885,7 @@ export const vocabulary = [
         pronunciation: "otōto",
         meaning: "(my) younger brother",
         lesson: "11",
+        type: "noun",
       },
       {
         jp: "おとうとさん",
@@ -3857,6 +3893,7 @@ export const vocabulary = [
         pronunciation: "otōtosan",
         meaning: "(someone else's) younger brother",
         lesson: "11",
+        type: "noun",
       },
       {
         jp: "いもうと",
@@ -3864,6 +3901,7 @@ export const vocabulary = [
         pronunciation: "imōto",
         meaning: "(my) younger sister",
         lesson: "11",
+        type: "noun",
       },
       {
         jp: "いもうとさん",
@@ -3871,6 +3909,7 @@ export const vocabulary = [
         pronunciation: "imōtosan",
         meaning: "(someone else's) younger sister",
         lesson: "11",
+        type: "noun",
       },
       {
         jp: "がいこく",
@@ -3878,6 +3917,7 @@ export const vocabulary = [
         pronunciation: "gaikoku",
         meaning: "foreign country",
         lesson: "11",
+        type: "noun",
       },
       {
         jp: "りゅうがくせい",
@@ -3885,6 +3925,7 @@ export const vocabulary = [
         pronunciation: "ryūgakusei",
         meaning: "foreign student",
         lesson: "11",
+        type: "noun",
       },
       {
         jp: "クラス",
@@ -3892,6 +3933,7 @@ export const vocabulary = [
         pronunciation: "kurasu",
         meaning: "class",
         lesson: "11",
+        type: "noun",
       },
       {
         jp: "－じかん",
@@ -3899,6 +3941,7 @@ export const vocabulary = [
         pronunciation: "-jikan",
         meaning: "- hour(s)",
         lesson: "11",
+        type: "noun",
       },
       {
         jp: "－しゅうかん",
@@ -3906,6 +3949,7 @@ export const vocabulary = [
         pronunciation: "-shūkan",
         meaning: "- week(s)",
         lesson: "11",
+        type: "noun",
       },
       {
         jp: "－かげつ",
@@ -3913,6 +3957,7 @@ export const vocabulary = [
         pronunciation: "-kagetsu",
         meaning: "- month(s)",
         lesson: "11",
+        type: "noun",
       },
       {
         jp: "－ねん",
@@ -3920,6 +3965,7 @@ export const vocabulary = [
         pronunciation: "-nen",
         meaning: "- year(s)",
         lesson: "11",
+        type: "noun",
       },
       {
         jp: "～ぐらい",
@@ -3927,6 +3973,7 @@ export const vocabulary = [
         pronunciation: "~gurai",
         meaning: "about ~",
         lesson: "11",
+        type: "adverbial phrase",
       },
       {
         jp: "どのくらい",
@@ -3934,6 +3981,7 @@ export const vocabulary = [
         pronunciation: "donokurai",
         meaning: "how long",
         lesson: "11",
+        type: "question phrase",
       },
       {
         jp: "ぜんぶで",
@@ -3941,6 +3989,7 @@ export const vocabulary = [
         pronunciation: "zenbu de",
         meaning: "in total",
         lesson: "11",
+        type: "phrase",
       },
       {
         jp: "みんな",
@@ -3948,6 +3997,7 @@ export const vocabulary = [
         pronunciation: "minna",
         meaning: "all, everything, everyone",
         lesson: "11",
+        type: "pronoun",
       },
       {
         jp: "～だけ",
@@ -3955,6 +4005,7 @@ export const vocabulary = [
         pronunciation: "~ dake",
         meaning: "only ~",
         lesson: "11",
+        type: "particle phrase",
       },
       {
         jp: "かしこまりました。",
@@ -3962,6 +4013,7 @@ export const vocabulary = [
         pronunciation: "Kashikomarimashita.",
         meaning: "Certainly, (Sir/Madam).",
         lesson: "11",
+        type: "expression",
       },
     ],
     12: [
@@ -3971,6 +4023,7 @@ export const vocabulary = [
         pronunciation: "kantan na",
         meaning: "easy",
         lesson: "12",
+        type: "adjective",
       },
       {
         jp: "ちかい",
@@ -3978,6 +4031,7 @@ export const vocabulary = [
         pronunciation: "chikai",
         meaning: "near",
         lesson: "12",
+        type: "adjective",
       },
       {
         jp: "とおい",
@@ -3985,6 +4039,7 @@ export const vocabulary = [
         pronunciation: "tōi",
         meaning: "far",
         lesson: "12",
+        type: "adjective",
       },
       {
         jp: "はやい",
@@ -3992,6 +4047,7 @@ export const vocabulary = [
         pronunciation: "hayai",
         meaning: "early",
         lesson: "12",
+        type: "adjective",
       },
       {
         jp: "はやい",
@@ -3999,6 +4055,7 @@ export const vocabulary = [
         pronunciation: "hayai",
         meaning: "fast",
         lesson: "12",
+        type: "adjective",
       },
       {
         jp: "おそい",
@@ -4006,6 +4063,7 @@ export const vocabulary = [
         pronunciation: "osoi",
         meaning: "late",
         lesson: "12",
+        type: "adjective",
       },
       {
         jp: "おそい",
@@ -4013,6 +4071,7 @@ export const vocabulary = [
         pronunciation: "osoi",
         meaning: "slow",
         lesson: "12",
+        type: "adjective",
       },
       {
         jp: "おおい",
@@ -4020,6 +4079,7 @@ export const vocabulary = [
         pronunciation: "ooi",
         meaning: "many, much",
         lesson: "12",
+        type: "adjective",
       },
       {
         jp: "すくない",
@@ -4027,6 +4087,7 @@ export const vocabulary = [
         pronunciation: "sukunai",
         meaning: "few, a little",
         lesson: "12",
+        type: "adjective",
       },
       {
         jp: "あたたかい",
@@ -4034,6 +4095,7 @@ export const vocabulary = [
         pronunciation: "atatakai",
         meaning: "hot",
         lesson: "12",
+        type: "adjective",
       },
       {
         jp: "あたたかい",
@@ -4041,6 +4103,7 @@ export const vocabulary = [
         pronunciation: "atatakai",
         meaning: "warm",
         lesson: "12",
+        type: "adjective",
       },
       {
         jp: "ずずしい",
@@ -4048,6 +4111,7 @@ export const vocabulary = [
         pronunciation: "zuzushii",
         meaning: "cool",
         lesson: "12",
+        type: "adjective",
       },
       {
         jp: "あまい",
@@ -4055,6 +4119,7 @@ export const vocabulary = [
         pronunciation: "amai",
         meaning: "sweet",
         lesson: "12",
+        type: "adjective",
       },
       {
         jp: "からい",
@@ -4062,6 +4127,7 @@ export const vocabulary = [
         pronunciation: "karai",
         meaning: "spicy",
         lesson: "12",
+        type: "adjective",
       },
       {
         jp: "おもい",
@@ -4069,6 +4135,7 @@ export const vocabulary = [
         pronunciation: "omoi",
         meaning: "heavy",
         lesson: "12",
+        type: "adjective",
       },
       {
         jp: "かるい",
@@ -4076,6 +4143,7 @@ export const vocabulary = [
         pronunciation: "karui",
         meaning: "light",
         lesson: "12",
+        type: "adjective",
       },
       {
         jp: "きせつ",
@@ -4083,6 +4151,7 @@ export const vocabulary = [
         pronunciation: "kisetsu",
         meaning: "season",
         lesson: "12",
+        type: "noun",
       },
       {
         jp: "はる",
@@ -4090,6 +4159,7 @@ export const vocabulary = [
         pronunciation: "haru",
         meaning: "spring",
         lesson: "12",
+        type: "noun",
       },
       {
         jp: "なつ",
@@ -4097,6 +4167,7 @@ export const vocabulary = [
         pronunciation: "natsu",
         meaning: "summer",
         lesson: "12",
+        type: "noun",
       },
       {
         jp: "あき",
@@ -4104,6 +4175,7 @@ export const vocabulary = [
         pronunciation: "aki",
         meaning: "autumn, fall",
         lesson: "12",
+        type: "noun",
       },
       {
         jp: "ふゆ",
@@ -4111,6 +4183,7 @@ export const vocabulary = [
         pronunciation: "fuyu",
         meaning: "winter",
         lesson: "12",
+        type: "noun",
       },
       {
         jp: "てんき",
@@ -4118,6 +4191,7 @@ export const vocabulary = [
         pronunciation: "tenki",
         meaning: "weather",
         lesson: "12",
+        type: "noun",
       },
       {
         jp: "あめ",
@@ -4125,6 +4199,7 @@ export const vocabulary = [
         pronunciation: "ame",
         meaning: "rain",
         lesson: "12",
+        type: "noun",
       },
       {
         jp: "ゆき",
@@ -4132,6 +4207,7 @@ export const vocabulary = [
         pronunciation: "yuki",
         meaning: "snow",
         lesson: "12",
+        type: "noun",
       },
       {
         jp: "くもり",
@@ -4139,6 +4215,7 @@ export const vocabulary = [
         pronunciation: "kumori",
         meaning: "cloudy",
         lesson: "12",
+        type: "noun",
       },
       {
         jp: "ホテル",
@@ -4146,6 +4223,7 @@ export const vocabulary = [
         pronunciation: "hoteru",
         meaning: "hotel",
         lesson: "12",
+        type: "noun",
       },
       {
         jp: "くうこう",
@@ -4153,6 +4231,7 @@ export const vocabulary = [
         pronunciation: "kūkō",
         meaning: "airport",
         lesson: "12",
+        type: "noun",
       },
       {
         jp: "うみ",
@@ -4160,6 +4239,7 @@ export const vocabulary = [
         pronunciation: "umi",
         meaning: "sea, ocean",
         lesson: "12",
+        type: "noun",
       },
       {
         jp: "せかい",
@@ -4167,6 +4247,7 @@ export const vocabulary = [
         pronunciation: "sekai",
         meaning: "world",
         lesson: "12",
+        type: "noun",
       },
       {
         jp: "パーティー",
@@ -4174,6 +4255,7 @@ export const vocabulary = [
         pronunciation: "pātī",
         meaning: "party",
         lesson: "12",
+        type: "noun",
       },
       {
         jp: "(お)まつり",
@@ -4181,6 +4263,7 @@ export const vocabulary = [
         pronunciation: "(o)matsuri",
         meaning: "festival",
         lesson: "12",
+        type: "noun",
       },
       {
         jp: "どちら",
@@ -4188,6 +4271,7 @@ export const vocabulary = [
         pronunciation: "dochira",
         meaning: "which one (between two things)",
         lesson: "12",
+        type: "question word",
       },
       {
         jp: "すきやき",
@@ -4195,6 +4279,7 @@ export const vocabulary = [
         pronunciation: "sukiyaki",
         meaning: "sukiyaki",
         lesson: "12",
+        type: "noun",
       },
       {
         jp: "さしみ",
@@ -4202,6 +4287,7 @@ export const vocabulary = [
         pronunciation: "sashimi",
         meaning: "sashimi",
         lesson: "12",
+        type: "noun",
       },
       {
         jp: "すし",
@@ -4209,6 +4295,7 @@ export const vocabulary = [
         pronunciation: "sushi",
         meaning: "sushi",
         lesson: "12",
+        type: "noun",
       },
       {
         jp: "てんぷら",
@@ -4216,6 +4303,7 @@ export const vocabulary = [
         pronunciation: "tempura",
         meaning: "tempura",
         lesson: "12",
+        type: "noun",
       },
       {
         jp: "ぶたにく",
@@ -4223,6 +4311,7 @@ export const vocabulary = [
         pronunciation: "butaniku",
         meaning: "pork",
         lesson: "12",
+        type: "noun",
       },
       {
         jp: "とりにく",
@@ -4237,6 +4326,7 @@ export const vocabulary = [
         pronunciation: "gyūniku",
         meaning: "beef",
         lesson: "12",
+        type: "noun",
       },
       {
         jp: "レモン",
@@ -4244,6 +4334,7 @@ export const vocabulary = [
         pronunciation: "remon",
         meaning: "lemon",
         lesson: "12",
+        type: "noun",
       },
       {
         jp: "いけばな",
@@ -4251,6 +4342,7 @@ export const vocabulary = [
         pronunciation: "ikebana",
         meaning: "flower arrangement",
         lesson: "12",
+        type: "noun",
       },
       {
         jp: "もみじ",
@@ -4258,6 +4350,7 @@ export const vocabulary = [
         pronunciation: "momiji",
         meaning: "maple, red leaves of autumn",
         lesson: "12",
+        type: "noun",
       },
       {
         jp: "ただいま。",
@@ -4265,6 +4358,7 @@ export const vocabulary = [
         pronunciation: "tadaima",
         meaning: "I'm home.",
         lesson: "12",
+        type: "phrase",
       },
       {
         jp: "おかえりなさい。",
@@ -4272,6 +4366,7 @@ export const vocabulary = [
         pronunciation: "okaeri nasai",
         meaning: "Welcome back.",
         lesson: "12",
+        type: "phrase",
       },
     ],
     13: [
@@ -4281,6 +4376,7 @@ export const vocabulary = [
         pronunciation: "asobimasu",
         meaning: "play, hang out",
         lesson: "13",
+        type: "verb",
       },
       {
         jp: "およぎます",
@@ -4288,6 +4384,7 @@ export const vocabulary = [
         pronunciation: "oyogimasu",
         meaning: "swim",
         lesson: "13",
+        type: "verb",
       },
       {
         jp: "むかえます",
@@ -4295,6 +4392,7 @@ export const vocabulary = [
         pronunciation: "mukaemasu",
         meaning: "go to meet, welcome",
         lesson: "13",
+        type: "verb",
       },
       {
         jp: "つかれます",
@@ -4302,6 +4400,7 @@ export const vocabulary = [
         pronunciation: "tsukaremasu",
         meaning: "get tired",
         lesson: "13",
+        type: "verb",
       },
       {
         jp: "けっこんします",
@@ -4309,6 +4408,7 @@ export const vocabulary = [
         pronunciation: "kekkonshimasu",
         meaning: "marry",
         lesson: "13",
+        type: "verb",
       },
       {
         jp: "かいものします",
@@ -4316,6 +4416,7 @@ export const vocabulary = [
         pronunciation: "kaimonoshimasu",
         meaning: "do shopping",
         lesson: "13",
+        type: "verb",
       },
       {
         jp: "しょくじします",
@@ -4323,6 +4424,7 @@ export const vocabulary = [
         pronunciation: "shokujishimasu",
         meaning: "have a meal",
         lesson: "13",
+        type: "verb",
       },
       {
         jp: "さんぽします",
@@ -4330,6 +4432,7 @@ export const vocabulary = [
         pronunciation: "sanposhimasu",
         meaning: "take a walk",
         lesson: "13",
+        type: "verb",
       },
       {
         jp: "たいへんな",
@@ -4337,6 +4440,7 @@ export const vocabulary = [
         pronunciation: "taihen na",
         meaning: "hard",
         lesson: "13",
+        type: "adjective",
       },
       {
         jp: "ほしい",
@@ -4344,6 +4448,7 @@ export const vocabulary = [
         pronunciation: "hoshii",
         meaning: "want",
         lesson: "13",
+        type: "adjective",
       },
       {
         jp: "ひろい",
@@ -4351,6 +4456,7 @@ export const vocabulary = [
         pronunciation: "hiroi",
         meaning: "wide, spacious",
         lesson: "13",
+        type: "adjective",
       },
       {
         jp: "せまい",
@@ -4358,6 +4464,7 @@ export const vocabulary = [
         pronunciation: "semai",
         meaning: "narrow",
         lesson: "13",
+        type: "adjective",
       },
       {
         jp: "プール",
@@ -4365,6 +4472,7 @@ export const vocabulary = [
         pronunciation: "pu-ru",
         meaning: "swimming pool",
         lesson: "13",
+        type: "noun",
       },
       {
         jp: "かわ",
@@ -4372,6 +4480,7 @@ export const vocabulary = [
         pronunciation: "kawa",
         meaning: "river",
         lesson: "13",
+        type: "noun",
       },
       {
         jp: "びじゅつ",
@@ -4379,6 +4488,7 @@ export const vocabulary = [
         pronunciation: "bijutsu",
         meaning: "arts",
         lesson: "13",
+        type: "noun",
       },
       {
         jp: "つり",
@@ -4386,6 +4496,7 @@ export const vocabulary = [
         pronunciation: "tsuri",
         meaning: "fishing",
         lesson: "13",
+        type: "noun",
       },
       {
         jp: "スキー",
@@ -4393,6 +4504,7 @@ export const vocabulary = [
         pronunciation: "sukii",
         meaning: "skiing",
         lesson: "13",
+        type: "noun",
       },
       {
         jp: "しゅうまつ",
@@ -4400,6 +4512,7 @@ export const vocabulary = [
         pronunciation: "shūmatsu",
         meaning: "weekend",
         lesson: "13",
+        type: "noun",
       },
       {
         jp: "おしょうがつ",
@@ -4407,6 +4520,7 @@ export const vocabulary = [
         pronunciation: "oshōgatsu",
         meaning: "New year's day",
         lesson: "13",
+        type: "noun",
       },
       {
         jp: "なにか",
@@ -4414,6 +4528,7 @@ export const vocabulary = [
         pronunciation: "nanika",
         meaning: "something",
         lesson: "13",
+        type: "pronoun",
       },
       {
         jp: "ていしょく",
@@ -4421,6 +4536,7 @@ export const vocabulary = [
         pronunciation: "teishoku",
         meaning: "set menu",
         lesson: "13",
+        type: "noun",
       },
       {
         jp: "ぎゅうどん",
@@ -4428,6 +4544,7 @@ export const vocabulary = [
         pronunciation: "gyūdon",
         meaning: "beef bowl",
         lesson: "13",
+        type: "noun",
       },
       {
         jp: "のどがかわきます",
@@ -4435,6 +4552,7 @@ export const vocabulary = [
         pronunciation: "nodo ga kawakimasu",
         meaning: "to become thirsty",
         lesson: "13",
+        type: "verb",
       },
       {
         jp: "おなかがすきます",
@@ -4442,6 +4560,7 @@ export const vocabulary = [
         pronunciation: "onaka ga sukimasu",
         meaning: "to become hungry",
         lesson: "13",
+        type: "verb",
       },
       {
         jp: "ごちゅうもんは？",
@@ -4449,6 +4568,7 @@ export const vocabulary = [
         pronunciation: "gochūmon wa?",
         meaning: "May I take your order?",
         lesson: "13",
+        type: "phrase",
       },
       {
         jp: "しょうしょうおまちください。",
@@ -4456,6 +4576,7 @@ export const vocabulary = [
         pronunciation: "shōshō omachi kudasai.",
         meaning: "Please wait [a moment].",
         lesson: "13",
+        type: "phrase",
       },
     ],
     14: [
@@ -4465,6 +4586,7 @@ export const vocabulary = [
         pronunciation: "tsukemasu",
         meaning: "turn on",
         lesson: "14",
+        type: "verb",
       },
       {
         jp: "けします",
@@ -4472,6 +4594,7 @@ export const vocabulary = [
         pronunciation: "keshimasu",
         meaning: "turn off",
         lesson: "14",
+        type: "verb",
       },
       {
         jp: "あけます",
@@ -4479,6 +4602,7 @@ export const vocabulary = [
         pronunciation: "akemasu",
         meaning: "open",
         lesson: "14",
+        type: "verb",
       },
       {
         jp: "しめます",
@@ -4486,6 +4610,7 @@ export const vocabulary = [
         pronunciation: "shimemasu",
         meaning: "close, shut",
         lesson: "14",
+        type: "verb",
       },
       {
         jp: "いそぎます",
@@ -4493,6 +4618,7 @@ export const vocabulary = [
         pronunciation: "isogimasu",
         meaning: "hurry",
         lesson: "14",
+        type: "verb",
       },
       {
         jp: "まちます",
@@ -4500,6 +4626,7 @@ export const vocabulary = [
         pronunciation: "machimasu",
         meaning: "wait",
         lesson: "14",
+        type: "verb",
       },
       {
         jp: "もちます",
@@ -4507,6 +4634,7 @@ export const vocabulary = [
         pronunciation: "mochimasu",
         meaning: "hold",
         lesson: "14",
+        type: "verb",
       },
       {
         jp: "とります",
@@ -4514,6 +4642,7 @@ export const vocabulary = [
         pronunciation: "torimasu",
         meaning: "take, pass",
         lesson: "14",
+        type: "verb",
       },
       {
         jp: "てつだいます",
@@ -4521,6 +4650,7 @@ export const vocabulary = [
         pronunciation: "tetsudaimasu",
         meaning: "help",
         lesson: "14",
+        type: "verb",
       },
       {
         jp: "よびます",
@@ -4528,6 +4658,7 @@ export const vocabulary = [
         pronunciation: "yobimasu",
         meaning: "call",
         lesson: "14",
+        type: "verb",
       },
       {
         jp: "はなします",
@@ -4535,6 +4666,7 @@ export const vocabulary = [
         pronunciation: "hanashimasu",
         meaning: "speak, talk",
         lesson: "14",
+        type: "verb",
       },
       {
         jp: "つかいます",
@@ -4542,6 +4674,7 @@ export const vocabulary = [
         pronunciation: "tsukaimasu",
         meaning: "use",
         lesson: "14",
+        type: "verb",
       },
       {
         jp: "とめます",
@@ -4549,6 +4682,7 @@ export const vocabulary = [
         pronunciation: "tomerimasu",
         meaning: "stop",
         lesson: "14",
+        type: "verb",
       },
       {
         jp: "とめます",
@@ -4556,6 +4690,7 @@ export const vocabulary = [
         pronunciation: "tomemasu",
         meaning: "park",
         lesson: "14",
+        type: "verb",
       },
       {
         jp: "みせます",
@@ -4563,13 +4698,15 @@ export const vocabulary = [
         pronunciation: "mimasu",
         meaning: "show",
         lesson: "14",
+        type: "verb",
       },
       {
         jp: "おしえます",
         kanji: "教えます",
         pronunciation: "oshieimasu",
-        meaning: "tell[an address]",
+        meaning: "tell [an address]",
         lesson: "14",
+        type: "verb",
       },
       {
         jp: "すわります",
@@ -4577,6 +4714,7 @@ export const vocabulary = [
         pronunciation: "suwarimasu",
         meaning: "sit down",
         lesson: "14",
+        type: "verb",
       },
       {
         jp: "たちます",
@@ -4584,6 +4722,7 @@ export const vocabulary = [
         pronunciation: "tachimasu",
         meaning: "stand up",
         lesson: "14",
+        type: "verb",
       },
       {
         jp: "はいります",
@@ -4591,6 +4730,7 @@ export const vocabulary = [
         pronunciation: "hairimasu",
         meaning: "enter a elevator",
         lesson: "14",
+        type: "verb",
       },
       {
         jp: "でます",
@@ -4598,6 +4738,7 @@ export const vocabulary = [
         pronunciation: "demasu",
         meaning: "go out of a elevator",
         lesson: "14",
+        type: "verb",
       },
       {
         jp: "ふります",
@@ -4605,6 +4746,7 @@ export const vocabulary = [
         pronunciation: "furimasu",
         meaning: "rain",
         lesson: "14",
+        type: "verb",
       },
       {
         jp: "コピーします",
@@ -4612,6 +4754,7 @@ export const vocabulary = [
         pronunciation: "kopīshimasu",
         meaning: "copy",
         lesson: "14",
+        type: "verb",
       },
       {
         jp: "でんき",
@@ -4619,6 +4762,7 @@ export const vocabulary = [
         pronunciation: "denki",
         meaning: "electricity, light",
         lesson: "14",
+        type: "noun",
       },
       {
         jp: "エアコン",
@@ -4626,6 +4770,7 @@ export const vocabulary = [
         pronunciation: "eakon",
         meaning: "air conditioner",
         lesson: "14",
+        type: "noun",
       },
       {
         jp: "パスポート",
@@ -4633,6 +4778,7 @@ export const vocabulary = [
         pronunciation: "pasupōto",
         meaning: "passport",
         lesson: "14",
+        type: "noun",
       },
       {
         jp: "なまえ",
@@ -4640,6 +4786,7 @@ export const vocabulary = [
         pronunciation: "namae",
         meaning: "name",
         lesson: "14",
+        type: "noun",
       },
       {
         jp: "じゅうしょ",
@@ -4647,6 +4794,7 @@ export const vocabulary = [
         pronunciation: "jūsho",
         meaning: "address",
         lesson: "14",
+        type: "noun",
       },
       {
         jp: "ちず",
@@ -4654,6 +4802,7 @@ export const vocabulary = [
         pronunciation: "chizu",
         meaning: "map",
         lesson: "14",
+        type: "noun",
       },
       {
         jp: "しお",
@@ -4661,6 +4810,7 @@ export const vocabulary = [
         pronunciation: "shio",
         meaning: "salt",
         lesson: "14",
+        type: "noun",
       },
       {
         jp: "さとう",
@@ -4668,6 +4818,7 @@ export const vocabulary = [
         pronunciation: "satō",
         meaning: "sugar",
         lesson: "14",
+        type: "noun",
       },
       {
         jp: "もんだい",
@@ -4675,6 +4826,7 @@ export const vocabulary = [
         pronunciation: "mondai",
         meaning: "question, problem, trouble",
         lesson: "14",
+        type: "noun",
       },
       {
         jp: "こたえ",
@@ -4682,6 +4834,7 @@ export const vocabulary = [
         pronunciation: "kotae",
         meaning: "answer",
         lesson: "14",
+        type: "noun",
       },
       {
         jp: "よみかた",
@@ -4689,6 +4842,7 @@ export const vocabulary = [
         pronunciation: "yomikata",
         meaning: "how to read",
         lesson: "14",
+        type: "noun",
       },
       {
         jp: "おつり",
@@ -4696,6 +4850,7 @@ export const vocabulary = [
         pronunciation: "otsuri",
         meaning: "change",
         lesson: "14",
+        type: "noun",
       },
       {
         jp: "これでおねがいします。",
@@ -4703,6 +4858,7 @@ export const vocabulary = [
         pronunciation: "kore de onegaishimasu.",
         meaning: "I'd like to pay with this.",
         lesson: "14",
+        type: "phrase",
       },
     ],
     15: [
@@ -4712,6 +4868,7 @@ export const vocabulary = [
         pronunciation: "okimasu",
         meaning: "put on",
         lesson: "15",
+        type: "verb",
       },
       {
         jp: "つくります",
@@ -4719,6 +4876,7 @@ export const vocabulary = [
         pronunciation: "tsukurimasu",
         meaning: "make, produce",
         lesson: "15",
+        type: "verb",
       },
       {
         jp: "うります",
@@ -4726,6 +4884,7 @@ export const vocabulary = [
         pronunciation: "urimasu",
         meaning: "sell",
         lesson: "15",
+        type: "verb",
       },
       {
         jp: "しります",
@@ -4733,6 +4892,7 @@ export const vocabulary = [
         pronunciation: "shirimasu",
         meaning: "get to know",
         lesson: "15",
+        type: "verb",
       },
       {
         jp: "すみます",
@@ -4740,6 +4900,7 @@ export const vocabulary = [
         pronunciation: "sumimasu",
         meaning: "be going to live",
         lesson: "15",
+        type: "verb",
       },
       {
         jp: "けんきゅうします",
@@ -4747,6 +4908,7 @@ export const vocabulary = [
         pronunciation: "kenkyūshimasu",
         meaning: "do research",
         lesson: "15",
+        type: "verb",
       },
       {
         jp: "おもいだします",
@@ -4754,6 +4916,7 @@ export const vocabulary = [
         pronunciation: "omoidashimasu",
         meaning: "remember, recollect",
         lesson: "15",
+        type: "verb",
       },
       {
         jp: "しりょう",
@@ -4761,6 +4924,7 @@ export const vocabulary = [
         pronunciation: "shiryō",
         meaning: "materials, data",
         lesson: "15",
+        type: "noun",
       },
       {
         jp: "カタログ",
@@ -4768,6 +4932,7 @@ export const vocabulary = [
         pronunciation: "katarogu",
         meaning: "catalog",
         lesson: "15",
+        type: "noun",
       },
       {
         jp: "じこくひょう",
@@ -4775,6 +4940,7 @@ export const vocabulary = [
         pronunciation: "jikokuhyō",
         meaning: "timetable",
         lesson: "15",
+        type: "noun",
       },
       {
         jp: "ふく",
@@ -4782,6 +4948,7 @@ export const vocabulary = [
         pronunciation: "fuku",
         meaning: "clothes",
         lesson: "15",
+        type: "noun",
       },
       {
         jp: "せいひん",
@@ -4789,6 +4956,7 @@ export const vocabulary = [
         pronunciation: "seihin",
         meaning: "products",
         lesson: "15",
+        type: "noun",
       },
       {
         jp: "ソフト",
@@ -4796,6 +4964,7 @@ export const vocabulary = [
         pronunciation: "sofuto",
         meaning: "software",
         lesson: "15",
+        type: "noun",
       },
       {
         jp: "でんしじしょ",
@@ -4803,6 +4972,7 @@ export const vocabulary = [
         pronunciation: "denshijisho",
         meaning: "electronic dictionary",
         lesson: "15",
+        type: "noun",
       },
       {
         jp: "けいざい",
@@ -4810,6 +4980,7 @@ export const vocabulary = [
         pronunciation: "keizai",
         meaning: "economy",
         lesson: "15",
+        type: "noun",
       },
       {
         jp: "じやくしょ",
@@ -4817,6 +4988,7 @@ export const vocabulary = [
         pronunciation: "shiyakusho",
         meaning: "city hall",
         lesson: "15",
+        type: "noun",
       },
       {
         jp: "こうこう",
@@ -4824,6 +4996,7 @@ export const vocabulary = [
         pronunciation: "kōkō",
         meaning: "high school",
         lesson: "15",
+        type: "noun",
       },
       {
         jp: "はいしゃ",
@@ -4831,6 +5004,7 @@ export const vocabulary = [
         pronunciation: "haisha",
         meaning: "dentist",
         lesson: "15",
+        type: "noun",
       },
       {
         jp: "どくしん",
@@ -4838,6 +5012,7 @@ export const vocabulary = [
         pronunciation: "dokushin",
         meaning: "single",
         lesson: "15",
+        type: "noun",
       },
     ],
     16: [
@@ -4847,6 +5022,7 @@ export const vocabulary = [
         pronunciation: "norimasu",
         meaning: "ride, get on [a train]",
         lesson: "16",
+        type: "verb",
       },
       {
         jp: "おります",
@@ -4854,6 +5030,7 @@ export const vocabulary = [
         pronunciation: "orimasu",
         meaning: "get off [a train]",
         lesson: "16",
+        type: "verb",
       },
       {
         jp: "のりかえます",
@@ -4861,6 +5038,7 @@ export const vocabulary = [
         pronunciation: "norikaemasu",
         meaning: "change trains",
         lesson: "16",
+        type: "verb",
       },
       {
         jp: "あびます",
@@ -4868,6 +5046,7 @@ export const vocabulary = [
         pronunciation: "abimasu",
         meaning: "take [a shower]",
         lesson: "16",
+        type: "verb",
       },
       {
         jp: "いれます",
@@ -4875,6 +5054,7 @@ export const vocabulary = [
         pronunciation: "iremasu",
         meaning: "put in, insert",
         lesson: "16",
+        type: "verb",
       },
       {
         jp: "だします",
@@ -4882,6 +5062,7 @@ export const vocabulary = [
         pronunciation: "dashimasu",
         meaning: "take out, withdraw",
         lesson: "16",
+        type: "verb",
       },
       {
         jp: "おろします",
@@ -4889,6 +5070,7 @@ export const vocabulary = [
         pronunciation: "oroshimasu",
         meaning: "to withdraw (money)",
         lesson: "16",
+        type: "verb",
       },
       {
         jp: "はいります",
@@ -4896,6 +5078,7 @@ export const vocabulary = [
         pronunciation: "hairimasu",
         meaning: "enter [university]",
         lesson: "16",
+        type: "verb",
       },
       {
         jp: "でます",
@@ -4903,6 +5086,7 @@ export const vocabulary = [
         pronunciation: "demasu",
         meaning: "graduate from [university]",
         lesson: "16",
+        type: "verb",
       },
       {
         jp: "おします",
@@ -4910,6 +5094,7 @@ export const vocabulary = [
         pronunciation: "oshimasu",
         meaning: "push, press",
         lesson: "16",
+        type: "verb",
       },
       {
         jp: "のみます",
@@ -4917,6 +5102,7 @@ export const vocabulary = [
         pronunciation: "nomimasu",
         meaning: "drink alcohol",
         lesson: "16",
+        type: "verb",
       },
       {
         jp: "はじめます",
@@ -4924,6 +5110,7 @@ export const vocabulary = [
         pronunciation: "hajimemasu",
         meaning: "start, begin",
         lesson: "16",
+        type: "verb",
       },
       {
         jp: "けんがくします",
@@ -4931,6 +5118,7 @@ export const vocabulary = [
         pronunciation: "kengakushimasu",
         meaning: "visit some place for study",
         lesson: "16",
+        type: "verb",
       },
       {
         jp: "でんわします",
@@ -4938,6 +5126,7 @@ export const vocabulary = [
         pronunciation: "denwa shimasu",
         meaning: "phone",
         lesson: "16",
+        type: "verb",
       },
       {
         jp: "どれ",
@@ -4945,6 +5134,7 @@ export const vocabulary = [
         pronunciation: "dore",
         meaning: "which one (of three or more)",
         lesson: "16",
+        type: "question word",
       },
       {
         jp: "どの",
@@ -4952,6 +5142,7 @@ export const vocabulary = [
         pronunciation: "dono",
         meaning: "which N",
         lesson: "16",
+        type: "question word",
       },
       {
         jp: "わかい",
@@ -4959,6 +5150,7 @@ export const vocabulary = [
         pronunciation: "wakai",
         meaning: "young",
         lesson: "16",
+        type: "adjective",
       },
       {
         jp: "ながい",
@@ -4966,6 +5158,7 @@ export const vocabulary = [
         pronunciation: "nagai",
         meaning: "long",
         lesson: "16",
+        type: "adjective",
       },
       {
         jp: "みじかい",
@@ -4973,6 +5166,7 @@ export const vocabulary = [
         pronunciation: "mijikai",
         meaning: "short",
         lesson: "16",
+        type: "adjective",
       },
       {
         jp: "あかるい",
@@ -4980,6 +5174,7 @@ export const vocabulary = [
         pronunciation: "akarui",
         meaning: "bright",
         lesson: "16",
+        type: "adjective",
       },
       {
         jp: "くらい",
@@ -4987,6 +5182,7 @@ export const vocabulary = [
         pronunciation: "kurai",
         meaning: "dark",
         lesson: "16",
+        type: "adjective",
       },
       {
         jp: "せたかい",
@@ -4994,6 +5190,7 @@ export const vocabulary = [
         pronunciation: "setakai",
         meaning: "tall (referring to person)",
         lesson: "16",
+        type: "adjective",
       },
       {
         jp: "からだ",
@@ -5001,6 +5198,7 @@ export const vocabulary = [
         pronunciation: "karada",
         meaning: "body",
         lesson: "16",
+        type: "noun",
       },
       {
         jp: "あたま",
@@ -5008,6 +5206,7 @@ export const vocabulary = [
         pronunciation: "atama",
         meaning: "head",
         lesson: "16",
+        type: "noun",
       },
       {
         jp: "かみ",
@@ -5015,6 +5214,7 @@ export const vocabulary = [
         pronunciation: "kami",
         meaning: "hair",
         lesson: "16",
+        type: "noun",
       },
       {
         jp: "かお",
@@ -5022,6 +5222,7 @@ export const vocabulary = [
         pronunciation: "kao",
         meaning: "face",
         lesson: "16",
+        type: "noun",
       },
       {
         jp: "め",
@@ -5029,6 +5230,7 @@ export const vocabulary = [
         pronunciation: "me",
         meaning: "eye",
         lesson: "16",
+        type: "noun",
       },
       {
         jp: "みみ",
@@ -5036,6 +5238,7 @@ export const vocabulary = [
         pronunciation: "mimi",
         meaning: "ear",
         lesson: "16",
+        type: "noun",
       },
       {
         jp: "はな",
@@ -5043,6 +5246,7 @@ export const vocabulary = [
         pronunciation: "hana",
         meaning: "nose",
         lesson: "16",
+        type: "noun",
       },
       {
         jp: "くち",
@@ -5050,6 +5254,7 @@ export const vocabulary = [
         pronunciation: "kuchi",
         meaning: "mouth",
         lesson: "16",
+        type: "noun",
       },
       {
         jp: "は歯",
@@ -5057,6 +5262,7 @@ export const vocabulary = [
         pronunciation: "haha",
         meaning: "tooth",
         lesson: "16",
+        type: "noun",
       },
       {
         jp: "おなか",
@@ -5064,6 +5270,7 @@ export const vocabulary = [
         pronunciation: "onaka",
         meaning: "stomach, belly, tummy",
         lesson: "16",
+        type: "noun",
       },
       {
         jp: "ジョギング",
@@ -5071,6 +5278,7 @@ export const vocabulary = [
         pronunciation: "jogingu",
         meaning: "jogging",
         lesson: "16",
+        type: "noun",
       },
       {
         jp: "シャワー",
@@ -5078,6 +5286,7 @@ export const vocabulary = [
         pronunciation: "shawā",
         meaning: "shower",
         lesson: "16",
+        type: "noun",
       },
       {
         jp: "みどり",
@@ -5085,6 +5294,7 @@ export const vocabulary = [
         pronunciation: "midori",
         meaning: "green",
         lesson: "16",
+        type: "noun",
       },
       {
         jp: "おてら",
@@ -5092,6 +5302,7 @@ export const vocabulary = [
         pronunciation: "otera",
         meaning: "temple",
         lesson: "16",
+        type: "noun",
       },
       {
         jp: "じんじゃ",
@@ -5099,6 +5310,7 @@ export const vocabulary = [
         pronunciation: "jinjya",
         meaning: "shinto shrine",
         lesson: "16",
+        type: "noun",
       },
       {
         jp: "キャッシュカード",
@@ -5106,12 +5318,14 @@ export const vocabulary = [
         pronunciation: "kyasshukādo",
         meaning: "cash dispensing card",
         lesson: "16",
+        type: "noun",
       },
       {
         jp: "あんしょうばんごう",
         kanji: "暗証番号",
         pronunciation: "anshō bangō",
-        meaning: "pass cord",
+        meaning: "pass code",
+        type: "noun",
         lesson: "16",
       },
       {
@@ -5119,14 +5333,17 @@ export const vocabulary = [
         kanji: "金額",
         pronunciation: "kingaku",
         meaning: "amount of money",
+        type: "noun",
         lesson: "16",
       },
+
       {
         jp: "かくにん",
         kanji: "確認",
         pronunciation: "kakunin",
         meaning: "confirmation",
         lesson: "16",
+        type: "noun",
       },
       {
         jp: "ボタン",
@@ -5134,6 +5351,7 @@ export const vocabulary = [
         pronunciation: "botan",
         meaning: "button",
         lesson: "16",
+        type: "noun",
       },
       {
         jp: "おひきだしですか。",
@@ -5141,6 +5359,7 @@ export const vocabulary = [
         pronunciation: "hikidashi desu ka.",
         meaning: "Are you making a withdrawal?",
         lesson: "16",
+        type: "phrase",
       },
     ],
     17: [
@@ -5150,6 +5369,7 @@ export const vocabulary = [
         pronunciation: "oboemasu",
         meaning: "memorize",
         lesson: "17",
+        type: "verb",
       },
       {
         jp: "わすれます",
@@ -5157,6 +5377,7 @@ export const vocabulary = [
         pronunciation: "wasuremasu",
         meaning: "forget",
         lesson: "17",
+        type: "verb",
       },
       {
         jp: "なくします",
@@ -5164,6 +5385,7 @@ export const vocabulary = [
         pronunciation: "nakushimasu",
         meaning: "lose",
         lesson: "17",
+        type: "verb",
       },
       {
         jp: "はらいます",
@@ -5171,6 +5393,7 @@ export const vocabulary = [
         pronunciation: "haraimasu",
         meaning: "pay",
         lesson: "17",
+        type: "verb",
       },
       {
         jp: "かえします",
@@ -5178,6 +5401,7 @@ export const vocabulary = [
         pronunciation: "kaeshimasu",
         meaning: "return",
         lesson: "17",
+        type: "verb",
       },
       {
         jp: "でかけます",
@@ -5185,6 +5409,7 @@ export const vocabulary = [
         pronunciation: "dekakemasu",
         meaning: "go out",
         lesson: "17",
+        type: "verb",
       },
       {
         jp: "ぬぎます",
@@ -5192,6 +5417,7 @@ export const vocabulary = [
         pronunciation: "nugimasu",
         meaning: "take off",
         lesson: "17",
+        type: "verb",
       },
       {
         jp: "もっていきます",
@@ -5199,6 +5425,7 @@ export const vocabulary = [
         pronunciation: "motte ikimasu",
         meaning: "take (something)",
         lesson: "17",
+        type: "verb",
       },
       {
         jp: "もってきます",
@@ -5206,6 +5433,7 @@ export const vocabulary = [
         pronunciation: "mottekimasu",
         meaning: "bring (something)",
         lesson: "17",
+        type: "verb",
       },
       {
         jp: "しんぱいします",
@@ -5213,6 +5441,7 @@ export const vocabulary = [
         pronunciation: "shinpai shimasu",
         meaning: "worry",
         lesson: "17",
+        type: "verb",
       },
       {
         jp: "ざんぎょうします",
@@ -5220,6 +5449,7 @@ export const vocabulary = [
         pronunciation: "zangyō shimasu",
         meaning: "work overtime",
         lesson: "17",
+        type: "verb",
       },
       {
         jp: "しゅっちょうします",
@@ -5227,6 +5457,7 @@ export const vocabulary = [
         pronunciation: "shucchō shimasu",
         meaning: "go on a business trip",
         lesson: "17",
+        type: "verb",
       },
       {
         jp: "のみます",
@@ -5234,6 +5465,7 @@ export const vocabulary = [
         pronunciation: "nomimasu",
         meaning: "take [medicine]",
         lesson: "17",
+        type: "verb",
       },
       {
         jp: "おふろにはいります",
@@ -5241,6 +5473,7 @@ export const vocabulary = [
         pronunciation: "ofuro ni hairimasu",
         meaning: "take [a bath]",
         lesson: "17",
+        type: "phrase",
       },
       {
         jp: "たいせつな",
@@ -5248,6 +5481,7 @@ export const vocabulary = [
         pronunciation: "taisetsuna",
         meaning: "important, precious",
         lesson: "17",
+        type: "adjective",
       },
       {
         jp: "だいじょうぶな",
@@ -5255,6 +5489,7 @@ export const vocabulary = [
         pronunciation: "daijōbuna",
         meaning: "all right",
         lesson: "17",
+        type: "adjective",
       },
       {
         jp: "あぶない",
@@ -5262,6 +5497,7 @@ export const vocabulary = [
         pronunciation: "abunai",
         meaning: "dangerous",
         lesson: "17",
+        type: "adjective",
       },
       {
         jp: "きんえん",
@@ -5269,6 +5505,7 @@ export const vocabulary = [
         pronunciation: "kin'en",
         meaning: "no smoking",
         lesson: "17",
+        type: "noun",
       },
       {
         jp: "けんこうほけんしょう",
@@ -5276,6 +5513,7 @@ export const vocabulary = [
         pronunciation: "kenkōhokenshō",
         meaning: "[health] insurance card",
         lesson: "17",
+        type: "noun",
       },
       {
         jp: "ねつ",
@@ -5283,6 +5521,7 @@ export const vocabulary = [
         pronunciation: "netsu",
         meaning: "fever",
         lesson: "17",
+        type: "noun",
       },
       {
         jp: "びょうき",
@@ -5290,6 +5529,7 @@ export const vocabulary = [
         pronunciation: "byōki",
         meaning: "illness, disease",
         lesson: "17",
+        type: "noun",
       },
       {
         jp: "くすり",
@@ -5297,6 +5537,7 @@ export const vocabulary = [
         pronunciation: "kusuri",
         meaning: "medicine",
         lesson: "17",
+        type: "noun",
       },
       {
         jp: "おふろ",
@@ -5304,6 +5545,7 @@ export const vocabulary = [
         pronunciation: "ofuro",
         meaning: "bath",
         lesson: "17",
+        type: "noun",
       },
       {
         jp: "うわぎ",
@@ -5311,6 +5553,7 @@ export const vocabulary = [
         pronunciation: "uwagi",
         meaning: "jacket",
         lesson: "17",
+        type: "noun",
       },
       {
         jp: "したぎ",
@@ -5318,6 +5561,7 @@ export const vocabulary = [
         pronunciation: "shitagi",
         meaning: "underwear",
         lesson: "17",
+        type: "noun",
       },
       {
         jp: "のど",
@@ -5325,6 +5569,7 @@ export const vocabulary = [
         pronunciation: "nodo",
         meaning: "throat",
         lesson: "17",
+        type: "noun",
       },
       {
         jp: "かぜ",
@@ -5332,6 +5577,7 @@ export const vocabulary = [
         pronunciation: "kaze",
         meaning: "cold, flu",
         lesson: "17",
+        type: "noun",
       },
       {
         jp: "どうしましたか。",
@@ -5339,6 +5585,7 @@ export const vocabulary = [
         pronunciation: "dō shimashita ka.",
         meaning: "What's the matter?",
         lesson: "17",
+        type: "phrase",
       },
       {
         jp: "おなかがいたい",
@@ -5346,6 +5593,7 @@ export const vocabulary = [
         pronunciation: "onaka ga itai",
         meaning: "stomachache",
         lesson: "17",
+        type: "phrase",
       },
       {
         jp: "あたまがいたい",
@@ -5353,6 +5601,7 @@ export const vocabulary = [
         pronunciation: "atama ga itai",
         meaning: "headache",
         lesson: "17",
+        type: "phrase",
       },
       {
         jp: "おだいじに。",
@@ -5360,6 +5609,7 @@ export const vocabulary = [
         pronunciation: "oda ji ni.",
         meaning: "Take care yourself. (said to people who are ill)",
         lesson: "17",
+        type: "phrase",
       },
     ],
     18: [
@@ -5369,6 +5619,7 @@ export const vocabulary = [
         pronunciation: "dekimasu",
         meaning: "be able to, can",
         lesson: "18",
+        type: "verb",
       },
       {
         jp: "あらいます",
@@ -5376,6 +5627,7 @@ export const vocabulary = [
         pronunciation: "araimasu",
         meaning: "wash",
         lesson: "18",
+        type: "verb",
       },
       {
         jp: "ひきます",
@@ -5383,6 +5635,7 @@ export const vocabulary = [
         pronunciation: "hikimasu",
         meaning: "play (stringed instrument or piano)",
         lesson: "18",
+        type: "verb",
       },
       {
         jp: "うたいます",
@@ -5390,6 +5643,7 @@ export const vocabulary = [
         pronunciation: "utaimasu",
         meaning: "sing",
         lesson: "18",
+        type: "verb",
       },
       {
         jp: "あつめます",
@@ -5397,6 +5651,7 @@ export const vocabulary = [
         pronunciation: "atsumemasu",
         meaning: "collect, gather",
         lesson: "18",
+        type: "verb",
       },
       {
         jp: "すてます",
@@ -5404,6 +5659,7 @@ export const vocabulary = [
         pronunciation: "sutemasu",
         meaning: "throw away",
         lesson: "18",
+        type: "verb",
       },
       {
         jp: "かえます",
@@ -5411,6 +5667,7 @@ export const vocabulary = [
         pronunciation: "kaemasu",
         meaning: "exchange",
         lesson: "18",
+        type: "verb",
       },
       {
         jp: "うんてんします",
@@ -5418,6 +5675,7 @@ export const vocabulary = [
         pronunciation: "unten shimasu",
         meaning: "drive",
         lesson: "18",
+        type: "verb",
       },
       {
         jp: "よやくします",
@@ -5425,6 +5683,7 @@ export const vocabulary = [
         pronunciation: "yoyaku shimasu",
         meaning: "reserve, book",
         lesson: "18",
+        type: "verb",
       },
       {
         jp: "ピアノ",
@@ -5432,6 +5691,7 @@ export const vocabulary = [
         pronunciation: "piano",
         meaning: "piano",
         lesson: "18",
+        type: "noun",
       },
       {
         jp: "げんさん",
@@ -5439,6 +5699,7 @@ export const vocabulary = [
         pronunciation: "gensan",
         meaning: "cash",
         lesson: "18",
+        type: "noun",
       },
       {
         jp: "しゅみ",
@@ -5446,6 +5707,7 @@ export const vocabulary = [
         pronunciation: "shumi",
         meaning: "hobby",
         lesson: "18",
+        type: "noun",
       },
       {
         jp: "にっき",
@@ -5453,6 +5715,7 @@ export const vocabulary = [
         pronunciation: "nikki",
         meaning: "diary",
         lesson: "18",
+        type: "noun",
       },
       {
         jp: "おいのり",
@@ -5460,6 +5723,7 @@ export const vocabulary = [
         pronunciation: "oinori",
         meaning: "prayer",
         lesson: "18",
+        type: "noun",
       },
       {
         jp: "かちょう",
@@ -5467,6 +5731,7 @@ export const vocabulary = [
         pronunciation: "kachō",
         meaning: "section chief",
         lesson: "18",
+        type: "noun",
       },
       {
         jp: "ぶちょう",
@@ -5474,6 +5739,7 @@ export const vocabulary = [
         pronunciation: "buchō",
         meaning: "department chief",
         lesson: "18",
+        type: "noun",
       },
       {
         jp: "しゃちょう",
@@ -5481,6 +5747,7 @@ export const vocabulary = [
         pronunciation: "shachō",
         meaning: "president of a company",
         lesson: "18",
+        type: "noun",
       },
       {
         jp: "どうぶつ",
@@ -5488,6 +5755,7 @@ export const vocabulary = [
         pronunciation: "dōbutsu",
         meaning: "animal",
         lesson: "18",
+        type: "noun",
       },
       {
         jp: "うま",
@@ -5495,6 +5763,7 @@ export const vocabulary = [
         pronunciation: "uma",
         meaning: "horse",
         lesson: "18",
+        type: "noun",
       },
       {
         jp: "インターネット",
@@ -5502,6 +5771,7 @@ export const vocabulary = [
         pronunciation: "Intānetto",
         meaning: "Internet",
         lesson: "18",
+        type: "noun",
       },
       {
         jp: "へえ",
@@ -5509,6 +5779,7 @@ export const vocabulary = [
         pronunciation: "hee",
         meaning: "Really!",
         lesson: "18",
+        type: "interjection",
       },
     ],
     19: [
@@ -5518,6 +5789,7 @@ export const vocabulary = [
         pronunciation: "noborimasu",
         meaning: "climb [a mountain]",
         lesson: "19",
+        type: "verb",
       },
       {
         jp: "とまります",
@@ -5525,6 +5797,7 @@ export const vocabulary = [
         pronunciation: "tomarimasu",
         meaning: "stay [at a hotel]",
         lesson: "19",
+        type: "verb",
       },
       {
         jp: "そうじします",
@@ -5532,6 +5805,7 @@ export const vocabulary = [
         pronunciation: "sōjishimasu",
         meaning: "clean (a room)",
         lesson: "19",
+        type: "verb",
       },
       {
         jp: "せんたくします",
@@ -5539,6 +5813,7 @@ export const vocabulary = [
         pronunciation: "sentakushimasu",
         meaning: "wash (clothes)",
         lesson: "19",
+        type: "verb",
       },
       {
         jp: "なります",
@@ -5546,6 +5821,7 @@ export const vocabulary = [
         pronunciation: "narimasu",
         meaning: "become",
         lesson: "19",
+        type: "verb",
       },
       {
         jp: "むりな",
@@ -5553,6 +5829,7 @@ export const vocabulary = [
         pronunciation: "murina",
         meaning: "impossible",
         lesson: "19",
+        type: "adjective",
       },
       {
         jp: "ねむい",
@@ -5560,6 +5837,7 @@ export const vocabulary = [
         pronunciation: "nemui",
         meaning: "sleepy",
         lesson: "19",
+        type: "adjective",
       },
       {
         jp: "つよい",
@@ -5567,6 +5845,7 @@ export const vocabulary = [
         pronunciation: "tsuyoi",
         meaning: "strong",
         lesson: "19",
+        type: "adjective",
       },
       {
         jp: "よわい",
@@ -5574,6 +5853,7 @@ export const vocabulary = [
         pronunciation: "yowai",
         meaning: "weak",
         lesson: "19",
+        type: "adjective",
       },
       {
         jp: "ちょうしがいい",
@@ -5581,6 +5861,7 @@ export const vocabulary = [
         pronunciation: "chōshiga ii",
         meaning: "be in good condition",
         lesson: "19",
+        type: "phrase",
       },
       {
         jp: "ちょうしがわるい",
@@ -5588,6 +5869,7 @@ export const vocabulary = [
         pronunciation: "chōshiga warui",
         meaning: "be in bad condition",
         lesson: "19",
+        type: "phrase",
       },
       {
         jp: "からだにいい",
@@ -5595,6 +5877,7 @@ export const vocabulary = [
         pronunciation: "karada ni ii",
         meaning: "good for one's health",
         lesson: "19",
+        type: "phrase",
       },
       {
         jp: "れんしゅうします",
@@ -5602,6 +5885,7 @@ export const vocabulary = [
         pronunciation: "renshū shimasu",
         meaning: "practice",
         lesson: "19",
+        type: "verb",
       },
       {
         jp: "ゴルフ",
@@ -5609,6 +5893,7 @@ export const vocabulary = [
         pronunciation: "gorufu",
         meaning: "golf",
         lesson: "19",
+        type: "noun",
       },
       {
         jp: "すもう",
@@ -5616,6 +5901,7 @@ export const vocabulary = [
         pronunciation: "sumō",
         meaning: "sumo",
         lesson: "19",
+        type: "noun",
       },
       {
         jp: "おちゃ",
@@ -5623,6 +5909,7 @@ export const vocabulary = [
         pronunciation: "ocha",
         meaning: "tea ceremony",
         lesson: "19",
+        type: "noun",
       },
       {
         jp: "ひ日",
@@ -5630,6 +5917,7 @@ export const vocabulary = [
         pronunciation: "hinichi",
         meaning: "day, date",
         lesson: "19",
+        type: "noun",
       },
       {
         jp: "かんぱい",
@@ -5637,6 +5925,7 @@ export const vocabulary = [
         pronunciation: "kanpai",
         meaning: "Cheers!",
         lesson: "19",
+        type: "expression",
       },
       {
         jp: "ダイエット",
@@ -5644,6 +5933,7 @@ export const vocabulary = [
         pronunciation: "daietto",
         meaning: "diet",
         lesson: "19",
+        type: "noun",
       },
       {
         jp: "おかげさまで",
@@ -5651,6 +5941,7 @@ export const vocabulary = [
         pronunciation: "okagesamade",
         meaning: "Thank you for your support",
         lesson: "19",
+        type: "phrase",
       },
     ],
     20: [
@@ -5660,6 +5951,7 @@ export const vocabulary = [
         pronunciation: "irimasu",
         meaning: "need [a passport]",
         lesson: "20",
+        type: "verb",
       },
       {
         jp: "しらべます",
@@ -5667,6 +5959,7 @@ export const vocabulary = [
         pronunciation: "shirabemasu",
         meaning: "check, investigate",
         lesson: "20",
+        type: "verb",
       },
       {
         jp: "しゅうりします",
@@ -5674,6 +5967,7 @@ export const vocabulary = [
         pronunciation: "shūri shimasu",
         meaning: "repair",
         lesson: "20",
+        type: "verb",
       },
       {
         jp: "ぼく",
@@ -5681,6 +5975,7 @@ export const vocabulary = [
         pronunciation: "boku",
         meaning: "I",
         lesson: "20",
+        type: "pronoun",
       },
       {
         jp: "きみ",
@@ -5688,6 +5983,7 @@ export const vocabulary = [
         pronunciation: "kimi",
         meaning: "you",
         lesson: "20",
+        type: "pronoun",
       },
       {
         jp: "くん",
@@ -5695,6 +5991,7 @@ export const vocabulary = [
         pronunciation: "kun",
         meaning: "(suffix often added to a boy's name)",
         lesson: "20",
+        type: "suffix",
       },
       {
         jp: "ことば",
@@ -5702,6 +5999,7 @@ export const vocabulary = [
         pronunciation: "kotoba",
         meaning: "Language",
         lesson: "20",
+        type: "noun",
       },
       {
         jp: "きもの",
@@ -5709,6 +6007,7 @@ export const vocabulary = [
         pronunciation: "kimono",
         meaning: "kimono",
         lesson: "20",
+        type: "noun",
       },
       {
         jp: "ビザ",
@@ -5716,6 +6015,7 @@ export const vocabulary = [
         pronunciation: "biza",
         meaning: "visa",
         lesson: "20",
+        type: "noun",
       },
       {
         jp: "おなかがいっぱいです",
@@ -5723,6 +6023,7 @@ export const vocabulary = [
         pronunciation: "onaka ga ippai desu",
         meaning: "I'm full.",
         lesson: "20",
+        type: "phrase",
       },
     ],
     21: [
@@ -5732,6 +6033,7 @@ export const vocabulary = [
         pronunciation: "omoimasu",
         meaning: "think",
         lesson: "21",
+        type: "verb",
       },
       {
         jp: "いいます",
@@ -5739,6 +6041,7 @@ export const vocabulary = [
         pronunciation: "iimasu",
         meaning: "say",
         lesson: "21",
+        type: "verb",
       },
       {
         jp: "かちます",
@@ -5746,6 +6049,7 @@ export const vocabulary = [
         pronunciation: "kachimasu",
         meaning: "win",
         lesson: "21",
+        type: "verb",
       },
       {
         jp: "まけます",
@@ -5753,6 +6057,7 @@ export const vocabulary = [
         pronunciation: "makemasu",
         meaning: "lose",
         lesson: "21",
+        type: "verb",
       },
       {
         jp: "あります",
@@ -5760,6 +6065,7 @@ export const vocabulary = [
         pronunciation: "arimasu",
         meaning: "[a festival] be held",
         lesson: "21",
+        type: "verb",
       },
       {
         jp: "やくにたちます",
@@ -5767,6 +6073,7 @@ export const vocabulary = [
         pronunciation: "yaku ni tachimasu",
         meaning: "be useful",
         lesson: "21",
+        type: "verb",
       },
       {
         jp: "うごきます",
@@ -5774,6 +6081,7 @@ export const vocabulary = [
         pronunciation: "ugokimasu",
         meaning: "[a car] move, work",
         lesson: "21",
+        type: "verb",
       },
       {
         jp: "やめます",
@@ -5781,6 +6089,7 @@ export const vocabulary = [
         pronunciation: "yamemasu",
         meaning: "quit [a company]",
         lesson: "21",
+        type: "verb",
       },
       {
         jp: "きをつけます",
@@ -5788,6 +6097,7 @@ export const vocabulary = [
         pronunciation: "ki o tsukemasu",
         meaning: "pay attention",
         lesson: "21",
+        type: "verb",
       },
       {
         jp: "りゅうがくします",
@@ -5795,6 +6105,7 @@ export const vocabulary = [
         pronunciation: "ryūgaku shimasu",
         meaning: "study abroad",
         lesson: "21",
+        type: "verb",
       },
       {
         jp: "むだな",
@@ -5802,6 +6113,7 @@ export const vocabulary = [
         pronunciation: "mudana",
         meaning: "wasteful",
         lesson: "21",
+        type: "adjective",
       },
       {
         jp: "ふべんな",
@@ -5809,6 +6121,7 @@ export const vocabulary = [
         pronunciation: "fuben na",
         meaning: "inconvenient",
         lesson: "21",
+        type: "adjective",
       },
       {
         jp: "すごい",
@@ -5816,6 +6129,7 @@ export const vocabulary = [
         pronunciation: "sugoi",
         meaning: "amazing",
         lesson: "21",
+        type: "adjective",
       },
       {
         jp: "うそ",
@@ -5823,14 +6137,15 @@ export const vocabulary = [
         pronunciation: "uso",
         meaning: "lie",
         lesson: "21",
+        type: "noun",
       },
-
       {
         jp: "じどうしゃ",
         kanji: "自動車",
         pronunciation: "jidōsha",
         meaning: "car",
         lesson: "21",
+        type: "noun",
       },
       {
         jp: "こうつう",
@@ -5838,6 +6153,7 @@ export const vocabulary = [
         pronunciation: "kōtsū",
         meaning: "transportation",
         lesson: "21",
+        type: "noun",
       },
       {
         jp: "ぶっか",
@@ -5845,6 +6161,7 @@ export const vocabulary = [
         pronunciation: "bukka",
         meaning: "commodity prices",
         lesson: "21",
+        type: "noun",
       },
       {
         jp: "ほうそうします",
@@ -5852,6 +6169,7 @@ export const vocabulary = [
         pronunciation: "hōsō shimasu",
         meaning: "broadcast",
         lesson: "21",
+        type: "verb",
       },
       {
         jp: "ニュース",
@@ -5859,6 +6177,7 @@ export const vocabulary = [
         pronunciation: "nyūsu",
         meaning: "news",
         lesson: "21",
+        type: "noun",
       },
       {
         jp: "アニメ",
@@ -5866,6 +6185,7 @@ export const vocabulary = [
         pronunciation: "anime",
         meaning: "animation",
         lesson: "21",
+        type: "noun",
       },
       {
         jp: "まんが",
@@ -5873,6 +6193,7 @@ export const vocabulary = [
         pronunciation: "manga",
         meaning: "cartoon",
         lesson: "21",
+        type: "noun",
       },
       {
         jp: "デザイン",
@@ -5880,6 +6201,7 @@ export const vocabulary = [
         pronunciation: "dezain",
         meaning: "design",
         lesson: "21",
+        type: "noun",
       },
       {
         jp: "ゆめ",
@@ -5887,6 +6209,7 @@ export const vocabulary = [
         pronunciation: "yume",
         meaning: "dream",
         lesson: "21",
+        type: "noun",
       },
       {
         jp: "てんさい",
@@ -5894,6 +6217,7 @@ export const vocabulary = [
         pronunciation: "tensai",
         meaning: "genius",
         lesson: "21",
+        type: "noun",
       },
       {
         jp: "しあい",
@@ -5901,6 +6225,7 @@ export const vocabulary = [
         pronunciation: "shiai",
         meaning: "game, match",
         lesson: "21",
+        type: "noun",
       },
       {
         jp: "いけん",
@@ -5908,6 +6233,7 @@ export const vocabulary = [
         pronunciation: "iken",
         meaning: "opinion",
         lesson: "21",
+        type: "noun",
       },
       {
         jp: "おはなし",
@@ -5915,6 +6241,7 @@ export const vocabulary = [
         pronunciation: "ohanashi",
         meaning: "talk, speech, story",
         lesson: "21",
+        type: "noun",
       },
       {
         jp: "ちきゅう",
@@ -5922,6 +6249,7 @@ export const vocabulary = [
         pronunciation: "chikyū",
         meaning: "earth",
         lesson: "21",
+        type: "noun",
       },
       {
         jp: "つき",
@@ -5929,6 +6257,7 @@ export const vocabulary = [
         pronunciation: "tsuki",
         meaning: "moon",
         lesson: "21",
+        type: "noun",
       },
       {
         jp: "さいきん",
@@ -5936,6 +6265,7 @@ export const vocabulary = [
         pronunciation: "saikin",
         meaning: "recently, these days",
         lesson: "21",
+        type: "time expression",
       },
     ],
     22: [
@@ -5945,6 +6275,7 @@ export const vocabulary = [
         pronunciation: "kimasu",
         meaning: "put on [a shirt]",
         lesson: "22",
+        type: "verb",
       },
       {
         jp: "はきます",
@@ -5952,6 +6283,7 @@ export const vocabulary = [
         pronunciation: "hakimasu",
         meaning: "put on [shoes or trousers]",
         lesson: "22",
+        type: "verb",
       },
       {
         jp: "かぶります",
@@ -5959,6 +6291,7 @@ export const vocabulary = [
         pronunciation: "kaburimasu",
         meaning: "put on [a hat]",
         lesson: "22",
+        type: "verb",
       },
       {
         jp: "かけます",
@@ -5966,6 +6299,7 @@ export const vocabulary = [
         pronunciation: "kakemasu",
         meaning: "put on [glasses]",
         lesson: "22",
+        type: "verb",
       },
       {
         jp: "します",
@@ -5973,6 +6307,7 @@ export const vocabulary = [
         pronunciation: "shimasu",
         meaning: "put on [a tie]",
         lesson: "22",
+        type: "verb",
       },
       {
         jp: "うまれます",
@@ -5980,6 +6315,7 @@ export const vocabulary = [
         pronunciation: "umarimasu",
         meaning: "be born",
         lesson: "22",
+        type: "verb",
       },
       {
         jp: "わたしたち",
@@ -5987,6 +6323,7 @@ export const vocabulary = [
         pronunciation: "watashitachi",
         meaning: "we",
         lesson: "22",
+        type: "pronoun",
       },
       {
         jp: "コート",
@@ -5994,6 +6331,7 @@ export const vocabulary = [
         pronunciation: "kōto",
         meaning: "coat",
         lesson: "22",
+        type: "noun",
       },
       {
         jp: "セーター",
@@ -6001,6 +6339,7 @@ export const vocabulary = [
         pronunciation: "sētā",
         meaning: "sweater",
         lesson: "22",
+        type: "noun",
       },
       {
         jp: "スーツ",
@@ -6008,6 +6347,7 @@ export const vocabulary = [
         pronunciation: "sūtsu",
         meaning: "suit",
         lesson: "22",
+        type: "noun",
       },
       {
         jp: "ぼうし",
@@ -6015,6 +6355,7 @@ export const vocabulary = [
         pronunciation: "bōshi",
         meaning: "hat, cap",
         lesson: "22",
+        type: "noun",
       },
       {
         jp: "めがね",
@@ -6022,6 +6363,7 @@ export const vocabulary = [
         pronunciation: "megane",
         meaning: "glasses",
         lesson: "22",
+        type: "noun",
       },
       {
         jp: "ケーキ",
@@ -6029,6 +6371,7 @@ export const vocabulary = [
         pronunciation: "kēki",
         meaning: "cake",
         lesson: "22",
+        type: "noun",
       },
       {
         jp: "べんとう",
@@ -6036,6 +6379,7 @@ export const vocabulary = [
         pronunciation: "bentō",
         meaning: "lunch box",
         lesson: "22",
+        type: "noun",
       },
       {
         jp: "ロボット",
@@ -6043,6 +6387,7 @@ export const vocabulary = [
         pronunciation: "robotto",
         meaning: "robot",
         lesson: "22",
+        type: "noun",
       },
       {
         jp: "ユーモア",
@@ -6050,6 +6395,7 @@ export const vocabulary = [
         pronunciation: "yūmoa",
         meaning: "humor",
         lesson: "22",
+        type: "noun",
       },
       {
         jp: "つごう",
@@ -6057,6 +6403,7 @@ export const vocabulary = [
         pronunciation: "tsugō",
         meaning: "convenience, schedule",
         lesson: "22",
+        type: "noun",
       },
       {
         jp: "やちん",
@@ -6064,6 +6411,7 @@ export const vocabulary = [
         pronunciation: "yachin",
         meaning: "house rent",
         lesson: "22",
+        type: "noun",
       },
       {
         jp: "ダイニングキッチン",
@@ -6071,6 +6419,7 @@ export const vocabulary = [
         pronunciation: "dainingu kitchin",
         meaning: "kitchen with a dining area",
         lesson: "22",
+        type: "noun",
       },
       {
         jp: "わしつ",
@@ -6078,6 +6427,7 @@ export const vocabulary = [
         pronunciation: "washitsu",
         meaning: "Japanese style room",
         lesson: "22",
+        type: "noun",
       },
       {
         jp: "おしいれ",
@@ -6085,6 +6435,7 @@ export const vocabulary = [
         pronunciation: "oshiire",
         meaning: "Japanese style closet",
         lesson: "22",
+        type: "noun",
       },
       {
         jp: "ふとん",
@@ -6092,6 +6443,7 @@ export const vocabulary = [
         pronunciation: "futon",
         meaning: "Japanese style mattress and quilt",
         lesson: "22",
+        type: "noun",
       },
       {
         jp: "おめでとうございます",
@@ -6099,6 +6451,7 @@ export const vocabulary = [
         pronunciation: "omedetō gozaimasu",
         meaning: "Congratulations.",
         lesson: "22",
+        type: "expression",
       },
     ],
     23: [
@@ -6108,6 +6461,7 @@ export const vocabulary = [
         pronunciation: "kikimasu",
         meaning: "ask [the teacher]",
         lesson: "23",
+        type: "verb",
       },
       {
         jp: "まわします",
@@ -6115,6 +6469,7 @@ export const vocabulary = [
         pronunciation: "mawashimasu",
         meaning: "turn",
         lesson: "23",
+        type: "verb",
       },
       {
         jp: "ひきます",
@@ -6122,6 +6477,7 @@ export const vocabulary = [
         pronunciation: "hikimasu",
         meaning: "pull",
         lesson: "23",
+        type: "verb",
       },
       {
         jp: "かえます",
@@ -6129,6 +6485,7 @@ export const vocabulary = [
         pronunciation: "kaemasu",
         meaning: "change",
         lesson: "23",
+        type: "verb",
       },
       {
         jp: "さわります",
@@ -6136,6 +6493,7 @@ export const vocabulary = [
         pronunciation: "sawarimasu",
         meaning: "touch",
         lesson: "23",
+        type: "verb",
       },
       {
         jp: "でます",
@@ -6143,6 +6501,7 @@ export const vocabulary = [
         pronunciation: "demasu",
         meaning: "[juice] come out",
         lesson: "23",
+        type: "verb",
       },
       {
         jp: "あるきます",
@@ -6150,6 +6509,7 @@ export const vocabulary = [
         pronunciation: "arukimasu",
         meaning: "walk [along a road]",
         lesson: "23",
+        type: "verb",
       },
       {
         jp: "わたります",
@@ -6157,6 +6517,7 @@ export const vocabulary = [
         pronunciation: "watari masu",
         meaning: "cross [a bridge]",
         lesson: "23",
+        type: "verb",
       },
       {
         jp: "まがります",
@@ -6164,6 +6525,7 @@ export const vocabulary = [
         pronunciation: "magarimasu",
         meaning: "turn[to the right]",
         lesson: "23",
+        type: "verb",
       },
       {
         jp: "さびしい",
@@ -6171,6 +6533,7 @@ export const vocabulary = [
         pronunciation: "sabishii",
         meaning: "lonely",
         lesson: "23",
+        type: "adjective",
       },
       {
         jp: "おゆ",
@@ -6178,6 +6541,7 @@ export const vocabulary = [
         pronunciation: "oyu",
         meaning: "hot water",
         lesson: "23",
+        type: "noun",
       },
       {
         jp: "おと",
@@ -6185,6 +6549,7 @@ export const vocabulary = [
         pronunciation: "oto",
         meaning: "sound",
         lesson: "23",
+        type: "noun",
       },
       {
         jp: "サイズ",
@@ -6192,6 +6557,7 @@ export const vocabulary = [
         pronunciation: "saizu",
         meaning: "size",
         lesson: "23",
+        type: "noun",
       },
       {
         jp: "こしょう",
@@ -6199,6 +6565,7 @@ export const vocabulary = [
         pronunciation: "koshō",
         meaning: "break down",
         lesson: "23",
+        type: "noun",
       },
       {
         jp: "みち",
@@ -6206,6 +6573,7 @@ export const vocabulary = [
         pronunciation: "michi",
         meaning: "road, way",
         lesson: "23",
+        type: "noun",
       },
       {
         jp: "こうさてん",
@@ -6213,6 +6581,7 @@ export const vocabulary = [
         pronunciation: "kōsaten",
         meaning: "crossroad",
         lesson: "23",
+        type: "noun",
       },
       {
         jp: "しんごう",
@@ -6220,6 +6589,7 @@ export const vocabulary = [
         pronunciation: "shingō",
         meaning: "traffic light",
         lesson: "23",
+        type: "noun",
       },
       {
         jp: "かど",
@@ -6227,6 +6597,7 @@ export const vocabulary = [
         pronunciation: "kado",
         meaning: "corner",
         lesson: "23",
+        type: "noun",
       },
       {
         jp: "はし",
@@ -6234,6 +6605,7 @@ export const vocabulary = [
         pronunciation: "hashi",
         meaning: "bridge",
         lesson: "23",
+        type: "noun",
       },
       {
         jp: "ちゅうしゃじょう",
@@ -6241,6 +6613,7 @@ export const vocabulary = [
         pronunciation: "chūshajō",
         meaning: "parking lot",
         lesson: "23",
+        type: "noun",
       },
       {
         jp: "たてもの",
@@ -6248,6 +6621,7 @@ export const vocabulary = [
         pronunciation: "tatemono",
         meaning: "building",
         lesson: "23",
+        type: "noun",
       },
     ],
     24: [
@@ -6257,13 +6631,15 @@ export const vocabulary = [
         pronunciation: "kuremasu",
         meaning: "give (me)",
         lesson: "24",
+        type: "verb",
       },
       {
-        jp: "なおします",
+        jp: "[じてんしゃを] なおします",
         kanji: "[自転車を] 直します",
-        pronunciation: "naoshimasu",
+        pronunciation: "[jitensha o] naoshimasu",
         meaning: "repair",
         lesson: "24",
+        type: "verb",
       },
       {
         jp: "[こたえを] なおします",
@@ -6271,6 +6647,7 @@ export const vocabulary = [
         pronunciation: "[kotae o] naoshimasu",
         meaning: "correct (answer)",
         lesson: "24",
+        type: "verb",
       },
       {
         jp: "つれていきます",
@@ -6278,6 +6655,7 @@ export const vocabulary = [
         pronunciation: "tsureteikimasu",
         meaning: "take (someone)",
         lesson: "24",
+        type: "verb",
       },
       {
         jp: "つれてきます",
@@ -6285,6 +6663,7 @@ export const vocabulary = [
         pronunciation: "tsuretekimasu",
         meaning: "bring (someone)",
         lesson: "24",
+        type: "verb",
       },
       {
         jp: "[ひとを] おくります",
@@ -6292,6 +6671,7 @@ export const vocabulary = [
         pronunciation: "[hito o] okurimasu",
         meaning: "send (someone)",
         lesson: "24",
+        type: "verb",
       },
       {
         jp: "しょうかいします",
@@ -6299,6 +6679,7 @@ export const vocabulary = [
         pronunciation: "shoukai shimasu",
         meaning: "introduce",
         lesson: "24",
+        type: "verb",
       },
       {
         jp: "あんないします",
@@ -6306,6 +6687,7 @@ export const vocabulary = [
         pronunciation: "annai shimasu",
         meaning: "guide",
         lesson: "24",
+        type: "verb",
       },
       {
         jp: "せつめいします",
@@ -6313,6 +6695,7 @@ export const vocabulary = [
         pronunciation: "setsumei shimasu",
         meaning: "explain",
         lesson: "24",
+        type: "verb",
       },
       {
         jp: "おじいさん",
@@ -6320,6 +6703,7 @@ export const vocabulary = [
         pronunciation: "ojiisan",
         meaning: "old man",
         lesson: "24",
+        type: "noun",
       },
       {
         jp: "おじいちゃん",
@@ -6327,6 +6711,7 @@ export const vocabulary = [
         pronunciation: "ojiichan",
         meaning: "grandfather",
         lesson: "24",
+        type: "noun",
       },
       {
         jp: "おばあさん",
@@ -6334,6 +6719,7 @@ export const vocabulary = [
         pronunciation: "obaasan",
         meaning: "old woman",
         lesson: "24",
+        type: "noun",
       },
       {
         jp: "おばあちゃん",
@@ -6341,6 +6727,7 @@ export const vocabulary = [
         pronunciation: "obaachan",
         meaning: "grandmother",
         lesson: "24",
+        type: "noun",
       },
       {
         jp: "じゅんび",
@@ -6348,6 +6735,7 @@ export const vocabulary = [
         pronunciation: "junbi",
         meaning: "preparation",
         lesson: "24",
+        type: "noun",
       },
       {
         jp: "ひっこしします",
@@ -6355,6 +6743,7 @@ export const vocabulary = [
         pronunciation: "hikkoshi shimasu",
         meaning: "move (house)",
         lesson: "24",
+        type: "verb",
       },
       {
         jp: "おかし",
@@ -6362,6 +6751,7 @@ export const vocabulary = [
         pronunciation: "okashi",
         meaning: "sweets, snacks",
         lesson: "24",
+        type: "noun",
       },
     ],
     25: [
@@ -6371,6 +6761,7 @@ export const vocabulary = [
         pronunciation: "kangaemasu",
         meaning: "think, consider",
         lesson: "25",
+        type: "verb",
       },
       {
         jp: "[えきに] つきます",
@@ -6378,6 +6769,7 @@ export const vocabulary = [
         pronunciation: "[eki ni] tsukimasu",
         meaning: "arrive [at the station]",
         lesson: "25",
+        type: "verb",
       },
       {
         jp: "[としを] とります",
@@ -6385,6 +6777,7 @@ export const vocabulary = [
         pronunciation: "[toshi o] torimasu",
         meaning: "grow old",
         lesson: "25",
+        type: "verb",
       },
       {
         jp: "たります",
@@ -6392,6 +6785,7 @@ export const vocabulary = [
         pronunciation: "tarimasu",
         meaning: "be enough",
         lesson: "25",
+        type: "verb",
       },
       {
         jp: "がんばります",
@@ -6399,6 +6793,7 @@ export const vocabulary = [
         pronunciation: "ganbarimasu",
         meaning: "do one's best",
         lesson: "25",
+        type: "verb",
       },
       {
         jp: "いなか",
@@ -6406,6 +6801,7 @@ export const vocabulary = [
         pronunciation: "inaka",
         meaning: "countryside, hometown",
         lesson: "25",
+        type: "noun",
       },
       {
         jp: "いみ",
@@ -6413,6 +6809,7 @@ export const vocabulary = [
         pronunciation: "imi",
         meaning: "meaning",
         lesson: "25",
+        type: "noun",
       },
       {
         jp: "てんきん",
@@ -6420,6 +6817,7 @@ export const vocabulary = [
         pronunciation: "tenkin",
         meaning: "transfer",
         lesson: "25",
+        type: "noun",
       },
       {
         jp: "もしもし",
@@ -6427,6 +6825,7 @@ export const vocabulary = [
         pronunciation: "moshi moshi",
         meaning: "hello (used on the phone)",
         lesson: "25",
+        type: "interjection",
       },
     ],
   },
