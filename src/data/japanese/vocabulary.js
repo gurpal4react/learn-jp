@@ -6825,7 +6825,7 @@ export const vocabulary = [
         pronunciation: "moshi moshi",
         meaning: "hello (used on the phone)",
         lesson: "25",
-        type: "interjection",
+        type: "expression",
       },
     ],
   },

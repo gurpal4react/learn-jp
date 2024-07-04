@@ -16,20 +16,23 @@ const useQuiz = (questionData, optionKey, limit) => {
     let typeBasedOptions = null;
     if (Object.keys(questionData[0]).includes("type")) {
       typeBasedOptions = questionData.reduce(
-        // eslint-disable-next-line 
+        // eslint-disable-next-line
         (p, c) => (p[c.type] ? p[c.type].push(c) : (p[c.type] = [c]), p),
         {}
       );
     }
     setQuestions(
       shuffledArray?.map((data) => {
-        const options = [data[optionKey]];
-        for (let i = 0; i < 3; i++) {
-          let option = data[optionKey];
-          const optionData =
-            typeBasedOptions && typeBasedOptions[data.type].length > 3
-              ? typeBasedOptions[data.type]
-              : questionData;
+        const optionData =
+          typeBasedOptions && typeBasedOptions[data.type].length > 3
+            ? typeBasedOptions[data.type]
+            : questionData;
+        const options =
+          typeBasedOptions[data.type].length <= 4
+            ? typeBasedOptions[data.type]?.map((data) => data[optionKey])
+            : [data[optionKey]];
+        let option = data[optionKey];
+        while (options.length < 4) {
           while (options.includes(option)) {
             option =
               optionData[Math.floor(Math.random() * optionData.length)][
@@ -40,7 +43,7 @@ const useQuiz = (questionData, optionKey, limit) => {
         }
         data.options = options.sort((a, b) => 0.5 - Math.random());
         return data;
-      })
+      }).filter((a) => a.type === 'number')
     );
   }, [questionData, optionKey, limit]);
 
