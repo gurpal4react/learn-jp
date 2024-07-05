@@ -43,7 +43,7 @@ const useQuiz = (questionData, optionKey, limit) => {
         }
         data.options = options.sort((a, b) => 0.5 - Math.random());
         return data;
-      }).filter((a) => a.type === 'number')
+      })
     );
   }, [questionData, optionKey, limit]);
 
