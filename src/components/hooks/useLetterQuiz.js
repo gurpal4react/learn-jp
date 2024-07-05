@@ -22,6 +22,7 @@ const useLetterQuiz = (data, type) => {
     setTimesWrong(
       [...incorrect]?.reduce(
         (attempts, d) => (
+          // eslint-disable-next-line
           attempts[d] ? (attempts[d] = attempts[d] + 1) : (attempts[d] = 1),
           attempts
         ),

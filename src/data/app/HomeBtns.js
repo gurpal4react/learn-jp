@@ -32,4 +32,7 @@ export const HomeBtns = [
   { link: "/list/adverbs", icon: "に", text: "Adverbs" },
   { link: "/list/kanji", icon: "字", text: "Kanji List N5" },
   { link: "/quiz/kanji", icon: "字", text: "Kanji Quiz N5" },
+  { link: "/list/common/time", icon: "T", text: "Time" },
+  { link: "/list/common/counting", icon: "C", text: "Counting" },
+  { link: "/list/common/directions", icon: "D", text: "Directions" },
 ];

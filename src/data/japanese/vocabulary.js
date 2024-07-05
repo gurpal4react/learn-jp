@@ -655,7 +655,6 @@ export const vocabulary = [
         pronunciation: "koko",
         meaning: "here, this place",
         lesson: "3",
-
         type: "direction & position",
       },
       {
@@ -664,7 +663,6 @@ export const vocabulary = [
         pronunciation: "soko",
         meaning: "there, that place near the listener",
         lesson: "3",
-
         type: "direction & position",
       },
       {
@@ -673,7 +671,6 @@ export const vocabulary = [
         pronunciation: "asoko",
         meaning: "that place over there",
         lesson: "3",
-
         type: "direction & position",
       },
       {
@@ -682,7 +679,6 @@ export const vocabulary = [
         pronunciation: "doko",
         meaning: "where, what place",
         lesson: "3",
-
         type: "direction & position",
       },
       {
@@ -691,7 +687,6 @@ export const vocabulary = [
         pronunciation: "kochira",
         meaning: "this way, this place (polite)",
         lesson: "3",
-
         type: "direction & position",
       },
       {
@@ -700,7 +695,6 @@ export const vocabulary = [
         pronunciation: "sochira",
         meaning: "that way, that place near the listener (polite)",
         lesson: "3",
-
         type: "direction & position",
       },
       {
@@ -709,7 +703,6 @@ export const vocabulary = [
         pronunciation: "achira",
         meaning: "that way, that place over there (polite)",
         lesson: "3",
-
         type: "direction & position",
       },
       {
@@ -718,7 +711,6 @@ export const vocabulary = [
         pronunciation: "dochira",
         meaning: "which way, where (polite equivalent of どこ)",
         lesson: "3",
-
         type: "direction & position",
       },
       {

@@ -10,6 +10,9 @@ import { e_adjective } from "../data/japanese/e_adjective";
 import { na_adjective } from "../data/japanese/na_adjective";
 import { particles } from "../data/japanese/particles";
 import { adverbs } from "../data/japanese/adverbs";
+import { time } from "../data/japanese/time";
+import { directions } from "../data/japanese/directions";
+import { counting } from "../data/japanese/counting";
 
 const ListRoutes = () => {
   return (
@@ -96,6 +99,22 @@ const ListRoutes = () => {
             mainKey="jp"
             heading="List of Particles"
           />
+        }
+      />
+      <Route
+        path="/common/time"
+        element={<ListComponent data={time} mainKey="jp" heading="Time" />}
+      />
+      <Route
+        path="/common/counting"
+        element={
+          <ListComponent data={counting} mainKey="jp" heading="Counting" />
+        }
+      />
+      <Route
+        path="/common/directions"
+        element={
+          <ListComponent data={directions} mainKey="jp" heading="Directions" />
         }
       />
     </Routes>
