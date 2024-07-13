@@ -28,7 +28,7 @@ const useQuiz = (questionData, optionKey, limit) => {
             ? typeBasedOptions[data.type]
             : questionData;
         const options =
-          typeBasedOptions[data.type].length <= 4
+          typeBasedOptions && typeBasedOptions[data.type].length <= 4
             ? typeBasedOptions[data.type]?.map((data) => data[optionKey])
             : [data[optionKey]];
         let option = data[optionKey];
