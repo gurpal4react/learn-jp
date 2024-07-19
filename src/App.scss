@@ -8,6 +8,8 @@ $card-accent: var(--secondary-color);
 $border: var(--card-border-color);
 $incorrect: var(--incorrect);
 $correct: var(--correct);
+$scroller: var(--accents);
+$primary: var(--primary-color);
 
 * {
   text-align: center;
@@ -21,9 +23,10 @@ $correct: var(--correct);
 }
 
 input {
-  background-color: $text-color;
+  background-color: var(--input-bg);
   border: none;
   color: $border;
+  border: solid 1px $border
 }
 
 // Customize scrollbar styles
@@ -37,13 +40,13 @@ input {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: $card-color;
+  background: $scroller;
   border-radius: 10px;
 
   // Hover effect for scrollbar thumb
   @media not all and (hover: none) {
     &:hover {
-      background: $card-accent;
+      background: $primary;
     }
   }
 }
@@ -300,6 +303,7 @@ input {
 .breadcrumb{
   text-decoration: none;
   background-color: inherit;
+  width: fit-content
 }
 
 .header{

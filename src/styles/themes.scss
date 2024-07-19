@@ -3,6 +3,8 @@
 html{
   --incorrect: #{$red};
   --correct: #{$green};
+  --input-bg: #{$white-1};
+  --accents: #{$bright-blue};
 }
 
 html[data-theme="dark"] {
