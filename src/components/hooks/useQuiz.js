@@ -1,51 +1,44 @@
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 
-const useQuiz = (questionData, optionKey, limit) => {
+const useQuiz = (questionService, level, lesson, limit) => {
   const navigate = useNavigate();
   const [questionIndex, setQuestionIndex] = useState(0);
   const [questions, setQuestions] = useState([]);
   const [answers, setAnswers] = useState([]);
   const [currentAnswer, setCurrentAnswer] = useState(null);
   const [totalCorrect, setTotalCorrect] = useState(0);
-  useMemo(() => {
-    if (!questionData) return;
-    const shuffledArray = limit
-      ? questionData.sort(() => 0.5 - Math.random()).splice(0, limit)
-      : questionData.sort(() => 0.5 - Math.random());
-    let typeBasedOptions = null;
-    if (Object.keys(questionData[0]).includes("type")) {
-      typeBasedOptions = questionData.reduce(
-        // eslint-disable-next-line
-        (p, c) => (p[c.type] ? p[c.type].push(c) : (p[c.type] = [c]), p),
-        {}
-      );
-    }
-    setQuestions(
-      shuffledArray?.map((data) => {
-        const optionData =
-          typeBasedOptions && typeBasedOptions[data.type].length > 3
-            ? typeBasedOptions[data.type]
-            : questionData;
-        const options =
-          typeBasedOptions && typeBasedOptions[data.type].length <= 4
-            ? typeBasedOptions[data.type]?.map((data) => data[optionKey])
-            : [data[optionKey]];
-        let option = data[optionKey];
-        while (options.length < 4) {
-          while (options.includes(option)) {
-            option =
-              optionData[Math.floor(Math.random() * optionData.length)][
-                optionKey
-              ];
+  const [loading, setLoading] = useState(true);
+  useEffect(() => {
+    try {
+      if (!questionService) return;
+      const getData = async () => {
+        if (level) {
+          if (limit) {
+            const questions = await questionService(level, limit);
+            setQuestions(questions.data);
+          } else if (lesson) {
+            const questions = await questionService(level, lesson);
+            setQuestions(questions.data);
+          } else {
+            const questions = await questionService(level);
+            setQuestions(questions.data);
           }
-          options.push(option);
+        } else if (limit) {
+          const questions = await questionService(limit);
+          setQuestions(questions.data);
+        } else {
+          const questions = await questionService();
+          setQuestions(questions.data);
         }
-        data.options = options.sort((a, b) => 0.5 - Math.random());
-        return data;
-      })
-    );
-  }, [questionData, optionKey, limit]);
+        setLoading(false);
+      };
+      getData();
+    } catch (e) {
+      console.log(e);
+      setLoading(false);
+    }
+  }, [questionService, level, lesson, limit]);
 
   const handleAnswer = (answer) => {
     if (answers.length !== questionIndex) return;
@@ -60,7 +53,7 @@ const useQuiz = (questionData, optionKey, limit) => {
       setAnswers([...answers, null]);
     }
     setQuestionIndex((prev) => prev + 1);
-    if (currentAnswer === questions[questionIndex][optionKey])
+    if (currentAnswer === questions[questionIndex].answer)
       setTotalCorrect((prev) => prev + 1);
     setCurrentAnswer(null);
   };
@@ -100,6 +93,7 @@ const useQuiz = (questionData, optionKey, limit) => {
     handleReset,
     currentAnswer,
     totalCorrect,
+    loading,
   };
 };
 

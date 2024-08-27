@@ -1,14 +1,20 @@
+@use "styles/themes" as *;
+
 // Define variables
-$white: white;
-$steel-blue: #36454f;
-$midnight-blue: #6082b6;
-$lilac-blue: #6062b6;
-$black: black;
+$text-color: var(--color);
+$bg-color: var(--background-color);
+$card-color: var(--card-background-color);
+$card-accent: var(--secondary-color);
+$border: var(--card-border-color);
+$incorrect: var(--incorrect);
+$correct: var(--correct);
+$scroller: var(--accents);
+$primary: var(--primary-color);
 
 * {
   text-align: center;
-  background-color: $steel-blue;
-  color: $white;
+  background-color: $bg-color;
+  color: $text-color;
   padding: 2px;
   user-select: none;
   -moz-user-select: none; /* Firefox */
@@ -17,9 +23,10 @@ $black: black;
 }
 
 input {
-  background-color: $white;
+  background-color: var(--input-bg);
   border: none;
-  color: $black;
+  color: $border;
+  border: solid 1px $border;
 }
 
 // Customize scrollbar styles
@@ -33,13 +40,13 @@ input {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: $midnight-blue;
+  background: $scroller;
   border-radius: 10px;
 
   // Hover effect for scrollbar thumb
   @media not all and (hover: none) {
     &:hover {
-      background: $lilac-blue;
+      background: $primary;
     }
   }
 }
@@ -48,8 +55,9 @@ input {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
+  row-gap: 5vh;
 
   .icon {
     font-size: 60px;
@@ -67,10 +75,13 @@ input {
 
 // Styling for icon buttons
 .icon-btn {
-  background-color: $midnight-blue;
-  border: 1px solid $black;
+  background-color: $card-color;
+  border: 1px solid $border;
   width: 220px;
   height: 140px;
+  border-radius: 10px;
+  overflow: hidden;
+  cursor: pointer;
 
   > div {
     background-color: inherit;
@@ -79,7 +90,7 @@ input {
 
 // Styles for lists
 .list {
-  color: $white;
+  color: $text-color;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -95,7 +106,7 @@ input {
   .list-main {
     font-weight: bold;
     font-size: 30px;
-    border-bottom: 2px $white dashed;
+    border-bottom: 2px $text-color dashed;
   }
 
   .list-element {
@@ -139,11 +150,11 @@ input {
     font-weight: bold;
     font-size: 30px;
     width: 80%;
-    border: 1px solid $white;
+    border: 1px solid $text-color;
     border-radius: 10px;
     margin-bottom: 10px;
-    color: $white;
-    background-color: $midnight-blue;
+    color: $text-color;
+    background-color: $card-color;
   }
 
   .option-list {
@@ -162,20 +173,20 @@ input {
     }
 
     .option {
-      border: 1px solid $white;
+      border: 1px solid $text-color;
       padding: 10px;
       border-radius: 10px;
       margin: 10px;
-      color: $white;
-      background-color: $midnight-blue;
+      color: $text-color;
+      background-color: $card-color;
       cursor: pointer;
 
       &.correct {
-        background-color: green !important;
+        background-color: $correct !important;
       }
 
       &.incorrect {
-        background-color: red !important;
+        background-color: $incorrect !important;
       }
     }
   }
@@ -183,23 +194,24 @@ input {
 
 .quiz-button {
   padding: 10px 15px;
-  border: 1px solid $white;
+  border: 1px solid $text-color;
   border-radius: 10px;
   margin: 10px;
   cursor: pointer;
+  background-color: $card-color;
 
   @media not all and (hover: none) {
     &:hover {
-      background-color: $white;
-      color: $steel-blue;
-      fill: $steel-blue;
+      background-color: $text-color;
+      color: $bg-color;
+      fill: $bg-color;
     }
   }
 
   &:active {
-    background-color: $steel-blue;
-    color: $white;
-    fill: $white;
+    background-color: $card-color;
+    color: $text-color;
+    fill: $text-color;
   }
 }
 
@@ -209,22 +221,23 @@ input {
   justify-content: center;
   align-items: center;
   padding: 10px 15px;
-  border: 1px solid $white;
+  border: 1px solid $text-color;
   border-radius: 10px;
   margin: 10px;
   cursor: pointer;
   min-width: 60px;
+  background-color: $card-color;
 
   @media not all and (hover: none) {
     &:hover {
-      background-color: $white;
-      color: $steel-blue;
+      background-color: $text-color;
+      color: $bg-color;
     }
   }
 
   &:active {
-    color: $white;
-    background-color: $steel-blue;
+    color: $text-color;
+    background-color: $card-color;
   }
 }
 
@@ -240,7 +253,7 @@ input {
     font-size: 30px;
     font-weight: bold;
     padding: 30px;
-    background-color: $midnight-blue;
+    background-color: $card-color;
     border-radius: 15px;
     margin: 10px 0;
 
@@ -252,11 +265,11 @@ input {
       width: 30vw;
     }
     &.correct {
-      background-color: green !important;
+      background-color: $correct !important;
     }
 
     &.incorrect {
-      background-color: red !important;
+      background-color: $incorrect !important;
     }
 
     > div {
@@ -269,20 +282,84 @@ input {
   }
 }
 
-.incorrect-count{
+.incorrect-count {
   font-weight: normal;
   font-size: 15px;
 }
 
 // Scroll-to-top and home buttons
 .top-btn {
+  background-color: $card-color;
   position: fixed;
   bottom: 10px;
   right: 10px;
 }
 
 .home-btn {
+  background-color: $card-color;
   position: fixed;
   bottom: 10px;
   left: 10px;
+}
+
+.breadcrumb {
+  text-decoration: none;
+  background-color: inherit;
+  width: fit-content;
+  font-weight: bold;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 10px;
+  @media only screen and (max-width: 720px) {
+    flex-direction: column;
+    align-items: center;
+    row-gap: 2vh;
+  }
+}
+
+.toggle-group {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2vw;
+  font-weight: bold;
+}
+
+.error-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 25vh;
+}
+
+// Keyframes for spinning animation
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.loader {
+  width: 50px;
+  height: 50px;
+  border: 5px solid $border;
+  border-top: 5px solid $scroller;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
 }
