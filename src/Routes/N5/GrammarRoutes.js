@@ -1,73 +1,80 @@
-import React from "react";
+import React, { lazy, Suspense } from "react";
 import { Navigate, Route, Routes } from "react-router-dom";
-import LinkPage from "../../Pages/LinkPage";
 import { GrammarBtns } from "../../data/app/N5/GrammarBtns";
+import Loader from "../../components/UI/Loader";
+import { ErrorBoundary } from "react-error-boundary";
+import ErrorPage from "../../components/UI/ErrorPage";
+import listService from "../../Services/list";
+import quizService from "../../Services/quiz";
 
-import { e_adjective } from "../../data/japanese/e_adjective";
-import { na_adjective } from "../../data/japanese/na_adjective";
-import { particles } from "../../data/japanese/particles";
-import { adverbs } from "../../data/japanese/adverbs";
-import ListComponent from "../../components/UI/List";
-import Quiz from "../../components/UI/Quiz";
-import { particles_practice } from "../../data/japanese/particles_practice";
+const LinkPage = lazy(() => import("../../Pages/LinkPage"));
+const ListComponent = lazy(() => import("../../components/UI/List"));
+const Quiz = lazy(() => import("../../components/UI/Quiz"));
 
 const GrammarRoutes = () => {
   return (
-    <Routes>
-      <Route index element={<LinkPage btnObj={GrammarBtns} />} />
-      <Route
-        path="/e-adjectives-list"
-        element={
-          <ListComponent
-            data={e_adjective}
-            mainKey="jp"
-            heading="List of い - Adjectives"
+    <ErrorBoundary fallback={<ErrorPage />}>
+      <Suspense fallback={Loader}>
+        <Routes>
+          <Route index element={<LinkPage btnObj={GrammarBtns} />} />
+          <Route
+            path="/e-adjectives-list"
+            element={
+              <ListComponent
+                dataService={listService.getEAdjective}
+                mainKey="jp"
+                heading="List of い - Adjectives"
+                level="n5"
+              />
+            }
           />
-        }
-      />
-      <Route
-        path="/na-adjectives-list"
-        element={
-          <ListComponent
-            data={na_adjective}
-            mainKey="jp"
-            heading="List of な - Adjectives"
+          <Route
+            path="/na-adjectives-list"
+            element={
+              <ListComponent
+                dataService={listService.getNaAdjective}
+                mainKey="jp"
+                heading="List of な - Adjectives"
+                level="n5"
+              />
+            }
           />
-        }
-      />
-      <Route
-        path="/adverbs-list"
-        element={
-          <ListComponent
-            data={adverbs}
-            mainKey="jp"
-            heading="List of Adverbs"
+          <Route
+            path="/adverbs-list"
+            element={
+              <ListComponent
+                dataService={listService.getAdverbs}
+                mainKey="jp"
+                heading="List of Adverbs"
+                level="n5"
+              />
+            }
           />
-        }
-      />
-      <Route
-        path="/particles-list"
-        element={
-          <ListComponent
-            data={particles}
-            mainKey="jp"
-            heading="List of Particles"
+          <Route
+            path="/particles-list"
+            element={
+              <ListComponent
+                dataService={listService.getParticles}
+                mainKey="jp"
+                heading="List of Particles"
+                level="n5"
+              />
+            }
           />
-        }
-      />
-      <Route
-        path="/particles-quiz"
-        element={
-          <Quiz
-            questionData={particles_practice}
-            questionKey={"question"}
-            optionKey={"answer"}
-            limit={10}
+          <Route
+            path="/particles-quiz"
+            element={
+              <Quiz
+                questionService={quizService.getParticles}
+                level="n5"
+                limit={10}
+              />
+            }
           />
-        }
-      />
-      <Route path="*" element={<Navigate to={"/"} />} />
-    </Routes>
+          <Route path="*" element={<Navigate to="/" />} />
+        </Routes>
+      </Suspense>
+    </ErrorBoundary>
   );
 };
 

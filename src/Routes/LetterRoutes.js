@@ -1,66 +1,76 @@
-import React from "react";
+import React, { Suspense, lazy } from "react";
 import { Navigate, Route, Routes } from "react-router-dom";
 import { LetterBtns } from "../data/app/LetterBtns";
-import LinkPage from "../Pages/LinkPage";
-import LettersQuiz from "../components/UI/LetterQuiz";
-import Quiz from "../components/UI/Quiz";
-import ListComponent from "../components/UI/List";
+import Loader from "../components/UI/Loader";
+import { ErrorBoundary } from "react-error-boundary";
+import ErrorPage from "../components/UI/ErrorPage";
+import listService from "../Services/list";
+import quizService from "../Services/quiz";
 
-import { hiragana } from "../data/japanese/hiragana";
-import { katakana } from "../data/japanese/katakana";
-import { katakana_reading } from "../data/japanese/katakana_reading";
+const LinkPage = lazy(() => import("../Pages/LinkPage"));
+const LettersQuiz = lazy(() => import("../components/UI/LetterQuiz"));
+const Quiz = lazy(() => import("../components/UI/Quiz"));
+const ListComponent = lazy(() => import("../components/UI/List"));
 
 const LetterRoutes = () => {
   return (
-    <Routes>
-      <Route index element={<LinkPage btnObj={LetterBtns} />} />
-      <Route
-        path="/hiragana-list"
-        element={
-          <ListComponent
-            heading={"List of Letters in Hiragana"}
-            data={hiragana}
-            letter={true}
-            noShowKeys={["type"]}
+    <ErrorBoundary fallback={<ErrorPage />}>
+      <Suspense fallback={Loader}>
+        <Routes>
+          <Route index element={<LinkPage btnObj={LetterBtns} />} />
+          <Route
+            path="/hiragana-list"
+            element={
+              <ListComponent
+                heading="List of Letters in Hiragana"
+                dataService={listService.getHiragana}
+                letter={true}
+                noShowKeys={["type"]}
+              />
+            }
           />
-        }
-      />
-      <Route
-        path="/katakana-list"
-        element={
-          <ListComponent
-            heading={"List of Letters in Katakana"}
-            data={katakana}
-            letter={true}
-            noShowKeys={["type"]}
+          <Route
+            path="/katakana-list"
+            element={
+              <ListComponent
+                heading="List of Letters in Katakana"
+                dataService={listService.getKatakana}
+                letter={true}
+                noShowKeys={["type"]}
+              />
+            }
           />
-        }
-      />
-      <Route
-        path="/katakana-reading-list"
-        element={
-          <ListComponent
-            data={katakana_reading}
-            mainKey="jp"
-            heading="List of Katakana Words"
+          <Route
+            path="/katakana-reading-list"
+            element={
+              <ListComponent
+                dataService={listService.getKatakanaReading}
+                mainKey="jp"
+                heading="List of Katakana Words"
+              />
+            }
           />
-        }
-      />
-      <Route path="/hiragana-quiz" element={<LettersQuiz data={hiragana} />} />
-      <Route path="/katakana-quiz" element={<LettersQuiz data={katakana} />} />
-      <Route
-        path="/combined-quiz"
-        element={
-          <Quiz
-            questionData={[...hiragana, ...katakana]}
-            questionKey={"kana"}
-            optionKey={"roumaji"}
-            limit={10}
+          <Route
+            path="/hiragana-quiz"
+            element={<LettersQuiz dataService={listService.getHiragana} />}
           />
-        }
-      />
-      <Route path="*" element={<Navigate to={"/"} />} />
-    </Routes>
+          <Route
+            path="/katakana-quiz"
+            element={<LettersQuiz dataService={listService.getKatakana} />}
+          />
+          <Route
+            path="/combined-quiz"
+            element={
+              <Quiz
+                questionService={quizService.getLetters}
+                limit={10}
+              />
+            }
+          />
+          <Route path="*" element={<Navigate to="/" />} />
+        </Routes>
+      </Suspense>
+    </ErrorBoundary>
   );
 };
 

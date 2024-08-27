@@ -6,9 +6,9 @@ const ToggleSwitch = ({ value, handleChange }) => {
     handleChange(!value)
   };
   return (
-    <label class="switch">
+    <label className="switch">
       <input type="checkbox" checked={value} onChange={internalHandleChange} />
-      <span class="slider round"></span>
+      <span className="slider round"></span>
     </label>
   );
 };

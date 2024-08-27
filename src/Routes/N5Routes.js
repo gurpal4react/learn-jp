@@ -1,22 +1,30 @@
-import React from "react";
+import React, { Suspense, lazy } from "react";
 import { Navigate, Route, Routes } from "react-router-dom";
-import LinkPage from "../Pages/LinkPage";
 import { N5Btns } from "../data/app/N5/HomeBtns";
-import CommonRoutes from "./N5/CommonRoutes";
-import KanjiRoutes from "./N5/KanjiRoutes";
-import GrammarRoutes from "./N5/GrammarRoutes";
-import VocabRoutes from "./N5/VocabRoutes";
+import { ErrorBoundary } from "react-error-boundary";
+import ErrorPage from "../components/UI/ErrorPage";
+import Loader from "../components/UI/Loader";
+
+const LinkPage = lazy(() => import("../Pages/LinkPage"));
+const CommonRoutes = lazy(() => import("./N5/CommonRoutes"));
+const KanjiRoutes = lazy(() => import("./N5/KanjiRoutes"));
+const GrammarRoutes = lazy(() => import("./N5/GrammarRoutes"));
+const VocabRoutes = lazy(() => import("./N5/VocabRoutes"));
 
 const N5Routes = () => {
   return (
-    <Routes>
-      <Route index element={<LinkPage btnObj={N5Btns} />} />
-      <Route path="/vocabulary/*" element={<VocabRoutes />} />
-      <Route path="/grammar/*" element={<GrammarRoutes />} />
-      <Route path="/kanji/*" element={<KanjiRoutes />} />
-      <Route path="/common/*" element={<CommonRoutes />} />
-      <Route path="*" element={<Navigate to={"/"} />} />
-    </Routes>
+    <ErrorBoundary fallback={<ErrorPage />}>
+      <Suspense fallback={Loader}>
+        <Routes>
+          <Route index element={<LinkPage btnObj={N5Btns} />} />
+          <Route path="/vocabulary/*" element={<VocabRoutes />} />
+          <Route path="/grammar/*" element={<GrammarRoutes />} />
+          <Route path="/kanji/*" element={<KanjiRoutes />} />
+          <Route path="/common/*" element={<CommonRoutes />} />
+          <Route path="*" element={<Navigate to="/" />} />
+        </Routes>
+      </Suspense>
+    </ErrorBoundary>
   );
 };
 

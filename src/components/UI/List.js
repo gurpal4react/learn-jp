@@ -3,14 +3,28 @@ import useList from "../hooks/useList";
 import { speak } from "../../helper/speak";
 import { GiSpeaker } from "react-icons/gi";
 import ScrollTopBtn from "./ScrollTopBtn";
+import Loader from "./Loader";
+import EmptyPage from "./EmptyPage";
 
-const ListComponent = ({ heading, data, mainKey, noShowKeys, letter }) => {
-  const { keys, typedData } = useList(
-    data,
+const ListComponent = ({
+  heading,
+  dataService,
+  level,
+  mainKey,
+  noShowKeys,
+  letter,
+  dataValues,
+}) => {
+  const { data, keys, typedData, loading } = useList(
+    dataService,
+    level,
     mainKey,
-    noShowKeys
+    noShowKeys,
+    dataValues
   );
-  return (
+  return loading ? (
+    <Loader />
+  ) : (
     <div className="list">
       <h1 className="list-heading">{heading}</h1>
       {keys ? (
@@ -32,7 +46,7 @@ const ListComponent = ({ heading, data, mainKey, noShowKeys, letter }) => {
           <List data={data} keys={keys} mainKey={mainKey} letter={letter} />
         )
       ) : (
-        <></>
+        <EmptyPage />
       )}
       <ScrollTopBtn />
     </div>

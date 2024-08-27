@@ -1,8 +1,9 @@
 import React from "react";
 import useLetterQuiz from "../hooks/useLetterQuiz";
 import ScrollTopBtn from "./ScrollTopBtn";
+import Loader from "../UI/Loader";
 
-const LettersQuiz = ({ data, type }) => {
+const LettersQuiz = ({ dataService, level, lesson, type }) => {
   const {
     randomData,
     correct,
@@ -14,8 +15,11 @@ const LettersQuiz = ({ data, type }) => {
     handleReset,
     handleFinish,
     timesWrong,
-  } = useLetterQuiz(data, type);
-  return (
+    loading,
+  } = useLetterQuiz(dataService, level, lesson, type);
+  return loading ? (
+    <Loader />
+  ) : (
     <>
       <div className="letter-list">
         {randomData?.map((letter) => {
@@ -36,7 +40,7 @@ const LettersQuiz = ({ data, type }) => {
                 name={answerKey}
                 disabled={finish || correct.indexOf(letter[questionKey]) !== -1}
                 onBlur={(e) => handleBlur(e, letter)}
-                onFocus={(e) => e.target.value = ''}
+                onFocus={(e) => (e.target.value = "")}
               />
               {timesWrong && (
                 <div className="incorrect-count">
