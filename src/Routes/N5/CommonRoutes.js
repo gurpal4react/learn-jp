@@ -12,7 +12,7 @@ const ListComponent = lazy(() => import("../../components/UI/List"));
 const CommonRoutes = () => {
   return (
     <ErrorBoundary fallback={<ErrorPage />}>
-      <Suspense fallback={Loader}>
+      <Suspense fallback={<Loader />}>
         <Routes>
           <Route index element={<LinkPage btnObj={CommonBtns} />} />
           <Route

@@ -9,17 +9,19 @@ const Layout = lazy(() => import("../components/UI/Layout"));
 const LinkPage = lazy(() => import("../Pages/LinkPage"));
 const LetterRoutes = lazy(() => import("./LetterRoutes"));
 const N5Routes = lazy(() => import("./N5Routes"));
+const N4Routes = lazy(() => import("./N4Routes"));
 
 const AppRoutes = () => {
   return (
     <HashRouter>
       <ErrorBoundary fallback={<ErrorPage />}>
-        <Suspense fallback={Loader}>
+        <Suspense fallback={<Loader />}>
           <Routes>
             <Route path="/" element={<Layout />}>
               <Route index element={<LinkPage btnObj={HomeBtns} />} />
               <Route path="/letters/*" element={<LetterRoutes />} />
               <Route path="/N5/*" element={<N5Routes />} />
+              <Route path="/N4/*" element={<N4Routes />} />
               <Route path="*" element={<Navigate to="/" />} />
             </Route>
           </Routes>

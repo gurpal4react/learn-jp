@@ -8,7 +8,7 @@ const Breadcrumb = () => {
     <div>
       {Object.keys(paths)?.map((path, i) => {
         return (
-          <span>
+          <span key={i}>
             <Link to={paths[path]} className="breadcrumb">
               {path}
             </Link>

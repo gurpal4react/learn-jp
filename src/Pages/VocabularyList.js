@@ -2,9 +2,9 @@ import React from "react";
 import ListComponent from "../components/UI/List";
 import useVocabularyList from "../components/hooks/useVocabularyList";
 import Loader from "../components/UI/Loader";
+import { lessonStart } from "../data/app/LessonStart";
 
-const VocabularyList = () => {
-  const level = 'n5'
+const VocabularyList = ({ level }) => {
   const { data, loading, chapterRef } = useVocabularyList(level);
   return loading || !data ? (
     <Loader />
@@ -13,9 +13,13 @@ const VocabularyList = () => {
       <div>
         <h1 className="list-heading">List of Vocabulary</h1>
         <h3 className="list-heading">Go to Chapter</h3>
-        {Object.keys(data)?.map((chapter) => {
+        {Array.from(
+          { length: 25 },
+          (_, index) => index + lessonStart[level]
+        )?.map((chapter) => {
           return (
             <button
+              key={chapter}
               className="chapter-button"
               onClick={() =>
                 window.scrollTo({

@@ -4,13 +4,22 @@ const useList = (dataService, level, mainKey, noShowKeys, dataValues) => {
   const [keys, setKeys] = useState(null);
   const [data, setData] = useState([]);
   const [typedData, setTypedData] = useState(null);
+  const [index, setIndex] = useState(undefined);
+  const [currentType, setCurrentType] = useState(undefined);
   const [loading, setLoading] = useState(true);
-  
+
+  const handleCarousel = (num, type) => {
+    setIndex(num);
+    if (type) {
+      setCurrentType(type);
+    }
+  };
+
   useEffect(() => {
-    if(dataValues){
-      setData(dataValues)
+    if (dataValues) {
+      setData(dataValues);
       setLoading(false);
-      return
+      return;
     }
     if (!dataService) return;
     const getData = async () => {
@@ -50,6 +59,9 @@ const useList = (dataService, level, mainKey, noShowKeys, dataValues) => {
     keys,
     typedData,
     loading,
+    index,
+    currentType,
+    handleCarousel,
   };
 };
 

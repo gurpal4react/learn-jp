@@ -1,13 +1,17 @@
 import React from "react";
-import '../styles/ToggleSwitch.scss'
+import "../styles/ToggleSwitch.scss";
 
 const ToggleSwitch = ({ value, handleChange }) => {
   const internalHandleChange = () => {
-    handleChange(!value)
+    handleChange(!value);
   };
   return (
     <label className="switch">
-      <input type="checkbox" checked={value} onChange={internalHandleChange} />
+      <input
+        type="checkbox"
+        checked={value}
+        onChange={internalHandleChange}
+      />
       <span className="slider round"></span>
     </label>
   );

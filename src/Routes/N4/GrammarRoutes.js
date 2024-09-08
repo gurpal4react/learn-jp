@@ -1,15 +1,13 @@
 import React, { lazy, Suspense } from "react";
 import { Navigate, Route, Routes } from "react-router-dom";
-import { GrammarBtns } from "../../data/app/N5/GrammarBtns";
+import { GrammarBtns } from "../../data/app/N4/GrammarBtns";
 import Loader from "../../components/UI/Loader";
 import { ErrorBoundary } from "react-error-boundary";
 import ErrorPage from "../../components/UI/ErrorPage";
 import listService from "../../Services/list";
-import quizService from "../../Services/quiz";
 
 const LinkPage = lazy(() => import("../../Pages/LinkPage"));
 const ListComponent = lazy(() => import("../../components/UI/List"));
-const Quiz = lazy(() => import("../../components/UI/Quiz"));
 
 const GrammarRoutes = () => {
   return (
@@ -24,7 +22,7 @@ const GrammarRoutes = () => {
                 dataService={listService.getEAdjective}
                 mainKey="jp"
                 heading="List of い - Adjectives"
-                level="n5"
+                level="n4"
               />
             }
           />
@@ -35,7 +33,7 @@ const GrammarRoutes = () => {
                 dataService={listService.getNaAdjective}
                 mainKey="jp"
                 heading="List of な - Adjectives"
-                level="n5"
+                level="n4"
               />
             }
           />
@@ -46,7 +44,7 @@ const GrammarRoutes = () => {
                 dataService={listService.getAdverbs}
                 mainKey="jp"
                 heading="List of Adverbs"
-                level="n5"
+                level="n4"
               />
             }
           />
@@ -57,17 +55,7 @@ const GrammarRoutes = () => {
                 dataService={listService.getParticles}
                 mainKey="jp"
                 heading="List of Particles"
-                level="n5"
-              />
-            }
-          />
-          <Route
-            path="/particles-quiz"
-            element={
-              <Quiz
-                questionService={quizService.getParticles}
-                level="n5"
-                limit={10}
+                level="n4"
               />
             }
           />

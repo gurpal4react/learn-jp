@@ -15,7 +15,7 @@ const ListComponent = lazy(() => import("../components/UI/List"));
 const LetterRoutes = () => {
   return (
     <ErrorBoundary fallback={<ErrorPage />}>
-      <Suspense fallback={Loader}>
+      <Suspense fallback={<Loader />}>
         <Routes>
           <Route index element={<LinkPage btnObj={LetterBtns} />} />
           <Route
@@ -24,6 +24,7 @@ const LetterRoutes = () => {
               <ListComponent
                 heading="List of Letters in Hiragana"
                 dataService={listService.getHiragana}
+                mainKey="kana"
                 letter={true}
                 noShowKeys={["type"]}
               />
@@ -35,6 +36,7 @@ const LetterRoutes = () => {
               <ListComponent
                 heading="List of Letters in Katakana"
                 dataService={listService.getKatakana}
+                mainKey="kana"
                 letter={true}
                 noShowKeys={["type"]}
               />

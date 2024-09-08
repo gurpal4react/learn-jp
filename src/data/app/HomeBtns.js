@@ -5,4 +5,9 @@ export const HomeBtns = [
     icon: "N5",
     text: "<br/>N5 Section",
   },
+  {
+    link: "N4",
+    icon: "N4",
+    text: "<br/>N4 Section",
+  },
 ];
