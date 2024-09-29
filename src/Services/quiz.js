@@ -49,8 +49,8 @@ const quizService = {
     try {
       let url = vocabularyUrl;
       if (level) {
-        url += `?level=${level}&type=mtw`;
-        if (lesson) url += `&lesson=${lesson}`;
+        url += `?level=${level}&quizType=mtw`;
+        if (lesson && lesson !== "all") url += `&lesson=${lesson}`;
       }
       const data = await axios.get(url);
       return data;
@@ -63,8 +63,8 @@ const quizService = {
     try {
       let url = vocabularyUrl;
       if (level) {
-        url += `?level=${level}&type=wtm`;
-        if (lesson) url += `&lesson=${lesson}`;
+        url += `?level=${level}&quizType=wtm`;
+        if (lesson && lesson !== "all") url += `&lesson=${lesson}`;
       }
       const data = await axios.get(url);
       return data;
