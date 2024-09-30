@@ -10,6 +10,8 @@ $incorrect: var(--incorrect);
 $correct: var(--correct);
 $scroller: var(--accents);
 $primary: var(--primary-color);
+$boxShadow: var(--box-shadow);
+$inputBg: var(--input-bg);
 
 * {
   text-align: center;
@@ -23,10 +25,18 @@ $primary: var(--primary-color);
 }
 
 input {
-  background-color: var(--input-bg);
+  background-color: $inputBg;
   border: none;
   color: $border;
   border: solid 1px $border;
+}
+
+button{
+  &:hover {
+    transform: scale(1.1);
+    box-shadow: $boxShadow;
+    transition: transform 0.3s;
+  }
 }
 
 // Customize scrollbar styles
@@ -58,6 +68,7 @@ input {
   justify-content: space-around;
   align-items: center;
   row-gap: 5vh;
+  column-gap: 2vw;
 
   .icon {
     font-size: 60px;
@@ -85,6 +96,12 @@ input {
 
   > div {
     background-color: inherit;
+  }
+
+  &:hover {
+    transform: scale(1.1);
+    box-shadow: $boxShadow;
+    transition: transform 0.3s;
   }
 }
 
@@ -117,6 +134,7 @@ input {
     padding-bottom: 5px;
     margin: 20px 10px;
     margin-bottom: auto;
+    cursor: pointer;
 
     @media only screen and (max-width: 762px) {
       width: 40vw;
@@ -128,6 +146,7 @@ input {
     flex-direction: column;
     padding: 10px 20px;
     font-size: 30px;
+    cursor: pointer;
   }
 }
 
@@ -187,6 +206,11 @@ input {
 
       &.incorrect {
         background-color: $incorrect !important;
+      }
+      &:hover {
+        transform: scale(1.02);
+        box-shadow: $boxShadow;
+        transition: transform 0.3s;
       }
     }
   }
@@ -307,6 +331,11 @@ input {
   background-color: inherit;
   width: fit-content;
   font-weight: bold;
+
+  &:hover {
+    text-decoration: underline;
+    transition: transform 0.3s;
+  }
 }
 
 .header {
@@ -369,7 +398,6 @@ input {
   animation: spin 1s linear infinite;
 }
 
-
 /* Modal backdrop (overlay) */
 .modal-backdrop {
   position: fixed;
@@ -403,7 +431,7 @@ input {
   height: 300px; /* Ensures body is scrollable if content exceeds */
   overflow-y: auto;
   @media only screen and (max-width: 762px) {
-    height: 70vh
+    height: 70vh;
   }
 }
 
@@ -415,13 +443,23 @@ input {
   border-top: 1px solid $border;
 }
 
-.carousel-key{
+.carousel-key {
   font-size: 3vh;
   padding: 5px;
 }
 
-.carousel-main-key{
+.carousel-main-key {
   font-size: 6vh;
   padding-bottom: 10px;
+  font-weight: bold;
+}
+
+.section-header{
+  font-size: 7vh;
+  font-weight: bolder;
+}
+
+.section-description{
+  font-size: 3vh;
   font-weight: bold;
 }

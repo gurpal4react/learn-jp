@@ -18,7 +18,10 @@ const AppRoutes = () => {
         <Suspense fallback={<Loader />}>
           <Routes>
             <Route path="/" element={<Layout />}>
-              <Route index element={<LinkPage btnObj={HomeBtns} />} />
+              <Route
+                index
+                element={<LinkPage title={""} btnObj={HomeBtns} />}
+              />
               <Route path="/letters/*" element={<LetterRoutes />} />
               <Route path="/N5/*" element={<N5Routes />} />
               <Route path="/N4/*" element={<N4Routes />} />

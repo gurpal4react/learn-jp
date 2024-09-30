@@ -14,7 +14,10 @@ const GrammarRoutes = () => {
     <ErrorBoundary fallback={<ErrorPage />}>
       <Suspense fallback={<Loader />}>
         <Routes>
-          <Route index element={<LinkPage btnObj={GrammarBtns} />} />
+          <Route
+            index
+            element={<LinkPage title={"N4 Grammar"} btnObj={GrammarBtns} />}
+          />
           <Route
             path="/e-adjectives-list"
             element={

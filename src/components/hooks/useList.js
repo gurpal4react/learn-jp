@@ -60,6 +60,7 @@ const useList = (dataService, level, mainKey, noShowKeys, dataValues) => {
     typedData,
     loading,
     index,
+    setIndex,
     currentType,
     handleCarousel,
   };

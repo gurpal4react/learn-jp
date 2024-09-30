@@ -3,7 +3,7 @@ import useCarousel from "../hooks/useCarousel";
 import { GiSpeaker } from "react-icons/gi";
 import { speak } from "../../helper/speak";
 
-const Carousel = ({ data, initialIndex, initialType, mainKey }) => {
+const Carousel = ({ data, initialIndex, setInitialIndex, initialType, mainKey }) => {
   const {
     visibleData,
     handlePrev,
@@ -11,8 +11,7 @@ const Carousel = ({ data, initialIndex, initialType, mainKey }) => {
     handleClose,
     handleTouchStart,
     handleTouchEnd,
-  } = useCarousel(data, initialIndex, initialType);
-  console.log({a:visibleData?'yes':'no'})
+  } = useCarousel(data, initialIndex, setInitialIndex, initialType);
   return visibleData ? (
     <div className="modal-backdrop">
       <div className="modal-container">

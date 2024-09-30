@@ -16,7 +16,10 @@ const KanjiRoutes = () => {
     <ErrorBoundary fallback={<ErrorPage />}>
       <Suspense fallback={<Loader />}>
         <Routes>
-          <Route index element={<LinkPage btnObj={KanjiBtns} />} />
+          <Route
+            index
+            element={<LinkPage title={"N5 Kanji"} btnObj={KanjiBtns} />}
+          />
           <Route
             path="/list"
             element={

@@ -1,13 +1,12 @@
 import { useEffect, useState } from "react";
 
-const useCarousel = (data, initialIndex, initialType) => {
+const useCarousel = (data, initialIndex, setInitialIndex, initialType) => {
   const [totalLength, setTotalLength] = useState();
   const [typeList, setTypeList] = useState();
   const [currentType, setCurrentType] = useState();
   const [index, setIndex] = useState();
   const [visibleData, setVisibleData] = useState();
   const [startX, setStartX] = useState(undefined);
-  console.log({initialIndex, index, visibleData})
   const handlePrev = () => {
     if (index >= 1) {
       setIndex((prev) => prev - 1);
@@ -60,6 +59,7 @@ const useCarousel = (data, initialIndex, initialType) => {
     setTypeList(null);
     setTotalLength(null);
     setVisibleData(null);
+    setInitialIndex(null)
   };
 
   const handleTouchStart = (e) => {

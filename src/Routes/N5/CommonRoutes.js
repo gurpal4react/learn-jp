@@ -14,7 +14,10 @@ const CommonRoutes = () => {
     <ErrorBoundary fallback={<ErrorPage />}>
       <Suspense fallback={<Loader />}>
         <Routes>
-          <Route index element={<LinkPage btnObj={CommonBtns} />} />
+          <Route
+            index
+            element={<LinkPage title={"Common Words"} btnObj={CommonBtns} />}
+          />
           <Route
             path="time"
             element={

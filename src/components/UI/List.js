@@ -16,7 +16,7 @@ const ListComponent = ({
   letter,
   dataValues,
 }) => {
-  const { data, keys, typedData, loading, index, currentType, handleCarousel } =
+  const { data, keys, typedData, loading, index, setIndex, currentType, handleCarousel } =
     useList(dataService, level, mainKey, noShowKeys, dataValues);
   return loading ? (
     <Loader />
@@ -55,6 +55,7 @@ const ListComponent = ({
       <Carousel
         data={typedData ? typedData : data}
         initialIndex={index}
+        setInitialIndex={setIndex}
         initialType={currentType}
         mainKey={mainKey}
       />

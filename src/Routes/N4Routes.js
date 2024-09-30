@@ -15,7 +15,7 @@ const N4Routes = () => {
     <ErrorBoundary fallback={<ErrorPage />}>
       <Suspense fallback={<Loader />}>
         <Routes>
-          <Route index element={<LinkPage btnObj={N4Btns} />} />
+          <Route index element={<LinkPage title={"N4"} btnObj={N4Btns} />} />
           <Route path="/vocabulary/*" element={<VocabRoutes />} />
           <Route path="/grammar/*" element={<GrammarRoutes />} />
           <Route path="/kanji/*" element={<KanjiRoutes />} />

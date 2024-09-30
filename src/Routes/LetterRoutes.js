@@ -17,7 +17,10 @@ const LetterRoutes = () => {
     <ErrorBoundary fallback={<ErrorPage />}>
       <Suspense fallback={<Loader />}>
         <Routes>
-          <Route index element={<LinkPage btnObj={LetterBtns} />} />
+          <Route
+            index
+            element={<LinkPage title={"Letter"} btnObj={LetterBtns} />}
+          />
           <Route
             path="/hiragana-list"
             element={
@@ -63,10 +66,7 @@ const LetterRoutes = () => {
           <Route
             path="/combined-quiz"
             element={
-              <Quiz
-                questionService={quizService.getLetters}
-                limit={10}
-              />
+              <Quiz questionService={quizService.getLetters} limit={10} />
             }
           />
           <Route path="*" element={<Navigate to="/" />} />

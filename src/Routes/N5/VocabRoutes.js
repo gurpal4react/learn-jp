@@ -17,7 +17,10 @@ const VocabRoutes = () => {
     <ErrorBoundary fallback={<ErrorPage />}>
       <Suspense fallback={<Loader />}>
         <Routes>
-          <Route index element={<LinkPage btnObj={VocabBtns} />} />
+          <Route
+            index
+            element={<LinkPage title={"N5 Vocabulary"} btnObj={VocabBtns} />}
+          />
           <Route path="/list" element={<VocabularyList level="n5" />} />
           <Route
             path="/reading-quiz"

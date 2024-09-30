@@ -16,6 +16,7 @@ html[data-theme="dark"] {
 
   --card-background-color: #{$dark-overlay-8};
   --card-border-color: #{$neutral-700};
+  --box-shadow: 0 4px 20px rgba(255, 255, 255, 0.3);
 }
 
 html[data-theme="light"] {
@@ -27,5 +28,6 @@ html[data-theme="light"] {
 
   --card-background-color: #{$white-1};
   --card-border-color: #{$grey-2};
+  --box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
 }
 
